@@ -1,0 +1,2131 @@
+/**		24- Media queries		**/
+@media screen and (min-width: 1200px) { /* Large Display 1200px and above */
+	input[type="submit"] {
+		height: 45px;
+		line-height: 45px;
+	}
+	.section_contact_space{
+		padding-bottom: 85px;
+	}
+	.section_about_space{
+		padding-bottom: 60px;
+	}
+	.section_client_space{
+		padding-top: 82px;
+		padding-bottom: 92px;
+	}
+	div.hgroup_1_work_space{
+		margin-bottom: 44px;
+	}
+	div.hgroup_1_service_space{
+		margin-bottom: 30px;
+	}
+	.parallax_featured_space{
+		padding-top: 65px;
+	}
+	.parallax_demo_space{
+		padding-top: 140px;
+	}
+	.hm_blog_4_col .post .post_content .meta_holder .title_holder .post_title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { /* Default 992px to 1199px */
+	div.team_member .view:hover .links li {
+		padding:0 10px;
+	}
+	.section_contact_space{
+		padding-bottom: 85px;
+	}
+	.section_about_space{
+		padding-bottom: 60px;
+	}
+	.section_client_space{
+		padding-top: 82px;
+		padding-bottom: 92px;
+	}
+		div.hgroup_1_work_space{
+		margin-bottom: 44px;
+	}
+	div.hgroup_1_service_space{
+		margin-bottom: 71px;
+	}
+	.parallax_featured_space{
+		padding-top: 65px;
+	}
+	.hm_blog_4_col .post .post_content .meta_holder .title_holder .post_title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+		/* widget_kraft_slider starts */
+		.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+			top: 90px;
+		}
+		/* widget_kraft_slider ends */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { /* Portrait Tablets 768 to 979 */
+	.is_magic_line.menu-bar .main-nav ul li a {
+		padding: 28px 20px;
+	}
+	/**       1- General                                                   **/
+	input, button, select, textarea{
+		background: transparent;
+		color: #000000;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	p {
+		line-height: 20px;
+		margin: 0 0 20px 0;
+	}
+	h2{
+		font-size: 40px;
+	}
+		.sticky{}
+		.bypostauthor{}
+		.wp-caption {
+			margin-bottom: 20px;
+		}
+	/*******************************************************************/
+	/********************* Global Elements Css Starts ******************/
+	/* .folio-link-url */
+		.folio-link-url i{
+			line-height: 20px;
+		}
+	/* Button CSS starts */
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+		font-size: 14px;
+		padding: 9px 26px;
+		margin: 0 0 20px 0;
+	}
+	textarea{
+		height: 200px;
+	}
+	/********************* Global Elements Css ends ******************/
+	/*******************************************************************/
+
+	/**       2- Navigation Primary (Sticky Navigation)             **/
+	/**       2.1- Navigation Primary General                     	**/
+	.menu-bar .main-nav ul li{
+		margin: 0 5px;
+		text-align: center;
+	}
+	.menu-bar .main-nav ul li a{
+		padding: 8px 5px 10px;
+	}
+
+/**       4- Header												**/
+	.text_banner_holder{
+		margin-top: 193px;
+		margin-bottom: 100px;
+	}
+	.static_banner.top_less_margin .text_banner_holder{
+		margin-top: 140px;
+	}
+		.text_banner_center.text_banner_holder{
+			margin-top: 179px;
+		}
+		.text_banner_center.text_banner_holder .hgroup_3{
+			margin-bottom: 47px;
+		}
+	.text_banner_holder .heading_wrap h2{
+		font-size: 50px;
+		line-height: 62px;
+		margin: 0 0 10px 0;
+	}
+
+	/**       5- Homepage Sections (includes headings group)		**/
+	/* Section Homepage General CSS starts */
+	.section_container{
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+	.section_container.section_container_inner{
+		padding-bottom: 40px;
+		padding-top: 100px;
+	}
+		div.hgroup_1{
+			margin: 0 0 47px;
+		}
+			div.hgroup_1 h2{
+				font-size: 40px;
+				line-height: 48px;
+				margin: 0 0 25px 0;
+				padding: 0 0 18px 0;
+			}
+			div.hgroup_1 h3{
+				font-size: 14px;
+				line-height: 20px;
+			}
+		div.hgroup_2{
+			margin-bottom: 20px;
+			overflow: hidden;
+		}
+			div.hgroup_2 h2 {
+				font-size: 28px;
+				line-height: 35px;
+				margin-bottom: 20px;
+			}
+			div.hgroup_2 h3{
+				font-size: 14px;
+				line-height: 20px;
+				margin-bottom: 25px;
+			}
+			
+		div.hgroup_3 {
+			margin: 0 0 47px;
+		}
+			div.hgroup_3 h2, div.hgroup_3 h1 {
+				font-size: 50px;
+				line-height: 58px;
+				margin-bottom: 22px;
+				padding-bottom: 18px;
+			}
+			div.hgroup_3 h3 {
+				font-size: 20px;
+				line-height: 26px;
+				margin-bottom: 12px;
+			}
+		div.hgroup_4{
+			margin-bottom: 47px;
+		}
+	/* Section Homepage General CSS ends */
+	
+	/**       6- Section Backgrounds (includes parallax, static, video background)		**/
+	/* Parallex Css Starts */
+	.parallax_container{
+		padding: 80px 0 85px 0;
+	}
+	 /* Parallex Css Ends */
+	 
+	/**		7- Services Section	No 1								**/
+	/* .service_single starts */	
+		.service_single .service_block {
+			margin: 0 0 12px 0;
+		}
+		.service_single h4{
+			margin-bottom: 12px;
+		}
+		.service_single p{
+			line-height: 20px;
+		}
+	/* .service_single ends */
+	
+	/**       8- Static Testimonial with Image						**/
+	/* .testi_static starts */
+		.testi_static{
+			margin: 25px 0;
+		}
+		.testi_static .founder_img{
+			width: 24%;
+		}
+		.testi_static .founder_text {
+			margin-left: 4%;
+			width: 71.75%;
+		}
+	/* .testi_static ends */
+	
+	/**		  9- Portfolio Section									**/
+	/* work_nav starts */
+		.work_nav ul.project-nav-menu{
+			margin: 0 0 10px ;
+		}
+		.work_nav ul.project-nav-menu li{
+			margin: 0 20px 15px;
+		}
+		.work_nav ul.project-nav-menu li a{
+			line-height: 20px;
+			padding-bottom: 6px;
+		}
+	/* work_nav ends */
+	
+	/* work_listing starts */
+		.view .links{
+			margin: 0 0 18px 0;
+		}
+		.view .links a.info-link{
+			height: 50px;
+			width: 50px;
+		}
+			.view .links a.info-link:before{
+				height: 26px;
+				top: 12px;
+			}
+			.view .links a.info-link:after{
+				left: 12px;
+				width: 26px;
+			}
+		.view .work_detail h3{
+			font-size: 15px;
+			line-height: 22px;
+			margin-bottom: 10px;
+		}
+		.view .work_detail p{
+			padding: 0;
+		}
+	/* work_listing ends */
+	
+	/* .project starts */
+		.project .project_detail {
+			margin: 25px 0 0 0;
+		}
+			.project .project_detail .project_text{
+				border-bottom: 1px solid #DDDDDD;
+				margin: 0 0 15px 0;
+			}
+				.project .project_detail .project_text .hgroup{
+					margin-bottom: 10px;
+				}
+				.project .project_detail .project_text .hgroup h2, .project .project_detail .project_text .hgroup h1{
+					font-size: 22px;
+					line-height: 26px;
+					padding-right: 0;
+				}
+				.project .project_detail .project_text .hgroup h3{
+					font-size: 16px;
+					line-height: 22px;
+					padding-right: 0;
+				}
+			.project .project_detail .project_meta {
+				margin: 0 0 10px 0;
+				padding: 0 0 10px 0;
+			}
+				.project .project_detail .project_meta span{
+					font-size: 13px;
+					line-height: 28px;
+				}
+			.project .project_detail .project_launch{
+				line-height: 28px;
+			}
+	/* .project ends */
+	
+	/**      11- Services Section No 2								**/
+	/* services_list Start Here */
+		.services_list {
+			margin-bottom: 30px;
+		}
+		.services_list h4 {
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 12px;
+		}
+	/* services_list End Here */
+	
+	/**      12- Features Slider with Carousel						**/
+	/* feature_slider Start Here */
+		/* .feature_slider_nav starts */
+		.feature_slider .feature_slider_nav {
+			margin: 0 0 53px 0;
+		}
+		.feature_slider .feature_slider_nav span {
+			font-size: 12px;
+			line-height: 18px;
+			margin-bottom: 36px;
+			padding: 0 28px;
+		}
+		/* .feature_slider_nav ends */
+		
+		/* .feature_detail starts */
+		.feature_detail h2 {
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 12px;
+		}
+		.feature_detail h3 {
+			font-size: 17px;
+			line-height: 22px;
+			margin-bottom: 15px;
+		}
+		.feature_detail p {
+			font-size: 13px;
+			line-height: 20px;
+		}
+		/* .feature_detail ends */
+		
+	/**      13- Promotion Bars										**/
+	/**      	13.1- Promotion bar with 2 Call to actions			**/
+	/* promotion_bar Start Here */
+		.promotion_bar{
+			margin: 30px 0;
+		}
+		.promotion_bar h4 {
+			font-size: 22px;
+			line-height: 30px;
+			margin-bottom: 20px;
+		}
+	/* promtion_bar End Here */
+	
+	/**      	13.2- Promotion bar with 1 Call to actions			**/
+	/* promotion_bar_2 Start Here */
+		.promotion_bar_2{
+			margin: 30px 0;
+		}
+		.promotion_bar_2 h2 {
+			font-size: 22px;
+		}
+	/* conversation Styling End Here */
+	
+	/**      14- Team Section										**/
+	/* team_member Styling Start Here */
+		div.team_member .view {
+			margin-bottom: 20px;
+		}
+		div.team_member .view .links li{
+			margin-bottom: 10px;
+		}
+		div.team_member h3 , div.team_member h4 , div.team_member p {
+			padding: 0px 20px;
+		}
+		div.team_member .content .links {
+			margin-top: 0;
+		}
+		div.team_member .view:hover .links li {
+			padding:0 10px;
+		}
+		div.team_member h3 {
+			font-size: 15px;
+			line-height: 20px;
+		}
+	/* team_member Styling End Here */
+	
+	/**      15- Statistics Section									**/	
+	/* stats_single Styling Start Here */
+		.stats_single {
+			margin-top: 15px;
+		}
+		.stats_single i {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		.stats_single .stats_content h3 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+
+		.stats_single .stats_content h4 {
+			font-size: 14px;
+			line-height: 18px;
+		}
+	/* stats_single Styling End Here */
+	
+	/**		 16- Testimonial slider									**/
+		/* .testi_holder .testi_single starts */
+		.testi_holder{
+			margin: 25px 0;
+		}
+		.testi_single .testi_text{
+			padding-top: 20px;
+			padding-left: 80px;
+		}
+		.testi_single .testi_text:before{
+			font-size: 160px;
+			line-height: 120px;
+		}
+			.testi_single .testi_text p{
+				font-size: 20px;
+				line-height: 28px;
+				margin: 0 0 22px;
+			}
+			.testi_single .testi_text p:before{
+				font-size: 160px;
+				line-height: 120px;
+				margin-top: 15px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			margin-left: 36.2%;
+			margin-top: -10px;
+		}
+		/* .testi_holder .testi_single ends */
+		
+	/**		17- Blog Section (includes: Module, Blog Listing, Single)	**/
+	.section_blog {
+		margin-top: 45px;
+		padding: 80px 0 60px;
+	}
+	
+	/* .hm_blog_post starts */
+	.hm_blog_post .post{
+		margin-bottom: 30px;
+	}
+	/* .hm_blog_post ends */
+	
+	/* .post starts */
+	.post{
+		margin-bottom: 40px;
+	}
+		.post .featured_image{
+			min-height: 66px;
+		}
+		.post .featured_image.has_comment_count{
+			min-height: 96px;
+		}
+			/* soundcloud_widget starts */
+			.post .featured_image.soundcloud_widget {
+				height: 96px;
+				padding-left: 60px;
+			}
+			/* soundcloud_widget ends */
+			
+			/* quote_post starts */
+			.quote_post .quote{
+				padding: 90px 30px 15px;
+			}
+			.has_comment_count.quote_post .quote{
+				padding: 30px 90px 0;
+			}
+			.quote_post .quote:before{
+				font-size: 50px;
+				line-height: 66px;
+			}
+			.quote_post .quote p{
+				font-size: 15px;
+				line-height: 25px;
+			}
+			/* quote_post ends */
+			
+			/* link_post starts */
+			.link_post a.link{
+				padding: 20px 52px 13px 85px;
+			}
+			.hm_blog_post .link_post a.link{
+				font-size: 13px;
+				line-height: 18px;
+				padding: 15px 52px 13px 75px;
+			}
+			.hm_blog_post .link_post a.link:before{
+				font-size: 30px;
+				line-height: 66px;
+			}
+			.link_post a.link:before{
+				font-size: 30px;
+				line-height: 66px;
+			}
+			/* link_post ends */
+			
+			/* .sticky.post starts */
+			.sticky.post .featured_image{
+				min-height: 74px;
+			}
+			.sticky.post .featured_image.has_comment_count{
+				min-height: 114px;
+			}
+			.sticky.post .featured_image .date_holder .date{
+				height: 74px;
+			}
+			.sticky.post .featured_image .date_holder .date{
+				padding-top: 38px;
+			}
+			.sticky.post .featured_image .date_holder .date:after{
+				font-size: 24px;
+				line-height: 32px;
+				top: 3px;
+			}
+			/* .sticky.post ends */
+				
+				.post .featured_image .date_holder .date{
+					height: 66px;
+					padding-top: 10px;
+					width: 60px;
+				}
+					.post .featured_image .date_holder .date .date_day{
+						font-size: 28px;
+						line-height: 30px;
+					}
+					.post .featured_image .comment_holder {
+						padding: 6px 0;
+					}
+					.post .post_content{
+						padding: 24px;
+					}
+					.post .post_content .meta_holder .title_holder .post_title{
+						font-size: 18px;
+						line-height: 24px;
+						padding-right: 160px;
+					}
+	/* .post ends */
+	
+	/**			17.5- Blog Post Comments							**/
+		/* comments_section Starts */
+		#comments_section h3 {
+			font-size: 30px;
+			line-height: 37px;
+			padding: 0 0 20px;
+			margin: 0 0 28px;
+		}
+		 
+		 #comments_section h3 i{
+			font-size: 20px;
+		 }
+		 #comments .commentlist .comment .clearing-container .avatar_holder{
+			 width: 60px;
+		 }
+		 #comments .commentlist .comment .clearing-container img {
+			height: auto;
+			width: 100%;
+		 }
+			#comments .commentlist .children {
+				margin: 0 0 0 80px;
+			}
+			#comments .commentlist li { 
+				margin: 0 0 20px; 
+			}
+			#comments .commentlist li cite.fn, #comments .commentlist li cite.fn a {
+				font-size: 15px;
+				line-height: 22px;
+			}
+			#comments .commentlist li time a {
+				font-size: 13px;
+				line-height: 20px;
+				margin-bottom: 6px;
+			}
+			#comments .clearing-container .comment_block{
+				margin: -8px 0 0 80px;
+				padding: 0 0 35px; 
+			}
+			#comments .comment-author { 
+				margin: 18px 0 14px; 
+			}
+			#comments .commentlist a.comment-reply-link {
+				font-size: 13px;
+				margin-top: 18px;
+				line-height: 22px;
+			}
+			#comments_section #respond h3 {
+				margin-bottom: 20px;
+			}
+			#comments_section #commentform .input-small{
+				width: 49%;
+			}
+			#comments_section #commentform .input-small-margin{
+				margin-left: 2%;
+			}
+		/* comments_section Ends */
+		
+	/**		18- Content area inner Pages							**/						
+	/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+		.content_area_section{
+			padding: 80px 0 54px;
+		}
+		.content_area_with_small{
+			padding: 40px 0 54px;
+		}
+		.content_bar h1{
+			font-size: 34px;
+			line-height: 40px;
+		}
+		.content_bar h2{
+			clear: both;
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.content_bar h3{
+			font-size: 26px;
+			line-height: 32px;
+		}
+		.content_bar h4{
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.content_bar h5{
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.content_bar h6{
+			font-size: 15px;
+			line-height: 22px;
+		}
+	/* content_bar Styling Ends*/
+
+	/**		22- Sidebar and Widgets									**/
+	/* side_bar Starts*/
+		.right_sidebar{
+			padding-left: 0;
+		}
+		.left_sidebar{
+			padding-right: 0;
+		}
+	
+	.widget-title {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 16px;
+	}
+	.side_bar .widget{
+		background: #ffffff;
+		padding: 24px 24px 24px;
+	}
+		/* custom_text_widget starts*/
+			.custom_text_widget{
+				color: #777777;
+				display: block;
+				margin-bottom: 25px;
+			}
+		
+			.custom_text_widget h4{
+				font-size: 14px;
+				line-height: 20px;
+			}
+		/* custom_text_widget ends*/
+		
+		/* widget_recent_entries Starts*/
+		.widget_recent_entries ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_recent_entries Ends*/
+		
+		/* widget_categories Starts*/
+		.widget_categories ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_categories Ends*/
+	
+		/* widget_text Starts*/
+		.textwidget strong {
+			font-size: 12px;
+		}
+		.textwidget blockquote {
+			font-size: 13px;
+			line-height: 22px;
+			margin-top: 24px;
+		}
+		/* widget_text Ends*/
+		
+		/* widget_kraft_slider starts */
+		.widget_kraft_slider .bx-wrapper .bxslider .slider_caption h3 a{
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+			top: 74px;
+		}
+		/* widget_kraft_slider ends */
+	
+		/* widget_search, widget_kraft_search Starts*/
+		.side_bar .widget_kraft_search{
+			padding: 0;
+		}
+		#s{
+			padding-left: 24px;
+		}
+		/* widget_search, widget_kraft_search Ends*/
+		
+		/* tweet-list Starts */
+		.tweet-list .tweet, .tweet_even, .tweet_odd {
+			font-size: 13px;
+			padding-left: 40px;
+			margin-bottom:  15px;
+		}
+		.tweet-list .tweet .icon {
+			font-size: 22px;
+			height: 30px;
+			width: 30px;
+		}
+		/* tweet-list Ends */
+		
+		/* widget_custom_video starts */
+		.widget_kraft_custom_video .vjs-default-skin .vjs-big-play-button{
+			height: 46px;
+			margin-left: -23px;
+			margin-top: -23px;
+			width: 46px;
+		}
+		.widget_kraft_custom_video .vjs-default-skin div.vjs-big-play-button span:before{
+			line-height: 46px;
+		}
+		/* widget_custom_video starts */
+		
+		/* widget_nav_menu and widget_pages Starts*/
+		.widget_nav_menu ul li a, .widget_pages ul li a, .widget_meta ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_nav_menu and widget_pages Ends*/
+		
+		/* widget_recent_comments Starts*/
+		.widget_recent_comments ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_nav_menu Ends*/
+	/* sidebar Ends*/
+	
+	/**		23- Shortcodes and Styling								**/
+	/**      23.3- Tabs Styles			                 				  				**/	
+	/*-----------------------------------------------------------------------------------*/
+	/* Tab Styles
+	/*-----------------------------------------------------------------------------------*/
+	.folio-tabs .folio-nav li a {
+		padding: 0 30px;
+	}
+	.folio-tabs .folio-tab {
+		padding: 22px 28px;
+	}
+
+	/**      23.5- Pricing Tables Styles 1			                 				    **/
+	/*-----------------------------------------------------------------------------------*/
+	/* 360 Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.design_pricing_single{
+		margin-bottom: 25px;
+		padding-left: 20px;
+	}
+	.design_pricing_single .price_title{
+		padding: 10px 16px;
+	}
+		.design_pricing_single .price_title h2{
+			font-size: 16px;
+			line-height: 24px;	
+		}
+	.design_pricing_single .price_cost{
+		padding: 35px 0 22px 5px;
+	}
+		.design_pricing_single .price_cost .price{
+			font-size: 30px;
+			line-height: 30px;
+			padding-bottom: 5px;
+		}
+		.design_pricing_single .price_cost .duration{
+			font-size: 13px;
+			line-height: 22px;	
+		}
+	.design_pricing_single .pricing_details{
+		padding: 15px 0 37px;
+	}
+	.design_pricing_single .pricing_details ul{
+		padding-left: 5px;
+		padding-right: 24px;
+	}
+		.design_pricing_single .pricing_details ul li{
+			font-size: 12px;
+			padding: 0 0 12px 0;
+			margin: 0 0 12px 0;
+		}
+		.design_pricing_single .pricing_details ul li:last-child {
+			margin-bottom: 5px;
+		}
+		.design_pricing_single .pricing_details .button{
+			padding: 0 20%;
+		}
+		/* .design_pricing_single ends */
+	
+	/**      23.6- Pricing Tables Styles			                 				  	**/
+	/*-----------------------------------------------------------------------------------*/
+	/* Folio Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.folio_pricing_single .price_title{
+		padding: 10px 15px;
+	}
+		.folio_pricing_single .price_title h2{
+			font-size: 20px;
+			line-height: 25px;	
+		}
+	.folio_pricing_single .price_cost{
+		padding: 32px 15px;
+	}
+		.folio_pricing_single .price_cost .price{
+			font-size: 46px;
+			line-height: 46px;
+		}
+	.folio_pricing_single .pricing_details{
+		padding: 22px 0 35px;
+	}
+	.folio_pricing_single .pricing_details ul{
+		margin: 0 0 15px 0;
+	}
+		.folio_pricing_single .pricing_details ul li{
+			font-size: 13px;
+			line-height: 22px;
+			padding: 0 0 20px 0;
+		}
+
+	/**      23.6- Quotes Styles			                 				 			 **/
+	/*-----------------------------------------------------------------------------------*/
+	/*	Quotes Styles
+	/*-----------------------------------------------------------------------------------*/
+		/* quote_styling Starts */
+		/* blockqoute */ 
+		.quote_1, .quote_2, .quote_3, .quote_4, .quote_5{
+			margin: 30px 0 10px 0;
+			padding: 0 10px 0 45px;
+		}
+		.quote_4, .quote_5{
+			padding: 23px 36px 23px 36px;
+		}
+		/* blockqoute p */
+		.quote_1 p, .quote_4 p , .quote_5 p{
+			font-size: 15px;
+			line-height: 26px;
+		}
+		.quote_2 p, .quote_3 p {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.quote_4 p , .quote_5 p{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		/* quote_styling Ends */
+
+}
+
+@media screen and (max-width: 767px) { /* Smart Phones to Tablets 481 to 767 */
+
+	.post .featured_image a {
+		width:50%;
+		margin:0 auto;
+	}
+
+	 a.link-btn {
+		 width:100%;
+	}
+	.button {
+		width:100%;
+	}
+
+	#sync1 .row div {
+		float:none;
+		margin: 20px auto;
+		text-align: center;
+	}
+
+	.is_magic_line.menu-bar .main-nav ul li a {
+		padding: 28px 20px;
+	}
+
+	/**       1- General                                                   **/
+	input, button, select, textarea{
+		background: transparent;
+		color: #000000;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	p {
+		line-height: 20px;
+		margin: 0 0 20px 0;
+	}
+	h2{
+		font-size: 40px;
+		line-height: normal;
+	}
+		.sticky{}
+		.bypostauthor{}
+		.wp-caption {
+			margin-bottom: 15px;
+		}
+	/*******************************************************************/
+	/********************* Global Elements Css Starts ******************/
+	/* .folio-link-url */
+		.folio-link-url i{
+			line-height: 20px;
+		}
+	/* Button CSS starts */
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+		font-size: 14px;
+		padding: 9px 26px;
+		margin: 0 0 20px 0;
+	}
+	textarea{
+		height: 200px;
+	}
+
+	/********************* Global Elements Css ends ******************/
+	/*******************************************************************/
+
+
+	/**       2- Navigation Primary (Sticky Navigation)             **/
+	/**       2.1- Navigation Primary General                     	**/
+	/* menu-bar starts */
+	.sticky-wrapper.is-sticky .menu-bar{
+		height: auto;
+		float: left;
+		width: 100%;
+	}
+	.sticky-wrapper .menu-bar.always_show{
+		height: auto;
+	}
+	.menu-bar{
+		min-height: auto;
+		padding-top: 4px;
+		padding-bottom: 3px;
+	}
+	.menu-bar .col-sm-12{
+		position: inherit;
+		overflow: hidden;
+	}
+	.small_menu .menu_with_text_only{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	/* menu-bar starts from */
+		.menu-bar .logo{
+			display: block;
+			overflow: hidden;
+			text-align: center;
+			margin: 0;
+            max-width: 180px;
+		}
+		.menu-bar .logo img{
+			float: left;
+			margin-top: 5px;
+		}
+		.menu-bar .main-nav{
+			display: none;
+		}
+	.menu-bar .responsive-nav{
+		border-top: 1px solid #cccccc;
+		float: none;
+		position: fixed;
+		top: 93px;
+		left: 0;
+		display: block;
+		height: 1000px;
+		background: #324851;
+	}
+	.menu-bar .responsive-nav ul{
+		display: block;
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.menu-bar .responsive-nav ul li{
+		float: none;
+		margin: 0;
+		text-align: left;
+		padding: 0;
+	}
+	.menu-bar .responsive-nav ul li a{
+		border-bottom: 1px solid #cccccc;
+		color: #777777;
+		display: block;
+		background: #ffffff;
+		line-height: 14px;
+		padding: 10px 10px 10px 40px;
+		position: relative;
+	}
+	.menu-bar .responsive-nav ul li span{
+		background: #ffffff;
+		border-bottom: 1px solid #cccccc;
+		color: #000000;
+		font-size: 13px;
+		line-height: 14px;
+		display: block;
+		padding: 10px 30px;
+		position: relative;
+	}
+	.menu-bar .responsive-nav ul li a:before, .menu-bar .responsive-nav .sub-menu .mega_column_title:before, .menu-bar .responsive-nav ul li.sub_header span:before{
+		content: "\f105";
+		font-family: 'FontAwesome';
+		font-size: 15px;
+		padding: 0;
+		position: absolute;
+		left: auto;
+		margin-top: 10px;
+		margin-left: -15px;
+		top: 0;
+	}
+		.menu-bar .responsive-nav ul li a:hover{
+			color: #ffffff;
+			background: #D9980D;
+		}
+		.menu-bar .responsive-nav ul > li.current > a{
+			color: #ffffff;
+			background: #D9980D;
+		}
+	
+	/**       2.2- Navigation Primary Drop-Down                  	**/
+		/* menu-bar Dropdown Starts */
+		.menu-bar .responsive-nav > ul > li > ul {
+			background: none;
+			border-top: none;
+			box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				-ms-box-shadow: none;
+				-o-box-shadow: none;
+			visibility: visible;
+			position: relative;
+			text-align: left;
+			opacity: 1;
+			top: auto;
+		}
+		/* menu-bar Dropdown Ends */
+		
+		/* sub_header and sub_divider starts */
+		.menu-bar .responsive-nav ul li.sub_header span{
+			background: #ffffff;
+			border-bottom: 1px solid #cccccc;
+			display: block;
+			font-weight: 400;
+			padding: 10px 30px;
+		}
+			/*.menu-bar .responsive-nav ul li.sub_header span:before{
+				content: "\f105";
+				font-family: 'FontAwesome';
+				font-size: 15px;
+				padding: 0;
+				position: absolute;
+				left: auto;
+				margin-top: 10px;
+				margin-left: -15px;
+				top: 0;
+			}*/
+		/* sub_header and sub_divider starts */
+		.menu-bar .responsive-nav > ul > li > ul > li > a, .menu-bar .responsive-nav > ul > li > ul > li > span{
+			padding-left: 60px !important;
+		}
+		.menu-bar .responsive-nav > ul > li > ul > li > ul > li > a, .menu-bar .responsive-nav > ul > li > ul > li > ul > li > span{
+			padding-left: 90px !important;
+		}
+	
+	/**       	3.1- Header Navigation 1 (Full Screen)				**/
+	/* overlay_menu closing cross */
+	.overlay_menu .overlay_menu-close {
+		margin-top: 14px;
+		margin-bottom: 13px;
+	}
+	.full_screen_menu ul {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.full_screen_holder .bottom_bar .full_contact_info{
+		text-align: center;
+	}
+	.full_screen_holder .bottom_bar .full_social_media{
+		margin: 0 0 32px 0;
+	}
+	.full_screen_holder .bottom_bar .full_social_media ul{
+		display: block;
+		float: none;
+		overflow: hidden;
+		text-align: center;
+	}
+		
+/**       4- Header												**/
+	.text_banner_holder{
+		margin-top: 173px;
+		margin-bottom: 80px;
+	}
+	.static_banner.top_less_margin .text_banner_holder{
+		margin-top: 140px;
+	}
+		.text_banner_center.text_banner_holder{
+			margin-top: 159px;
+		}
+		.text_banner_center.text_banner_holder .hgroup_3{
+			margin-bottom: 42px;
+		}
+	.text_banner_holder .heading_wrap h2{
+		font-size: 44px;
+		line-height: 56px;
+		margin: 0 0 10px 0;
+	}
+	
+	/**       5- Homepage Sections (includes headings group)		**/
+	/* Section Homepage General CSS starts */
+	.section_container{
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+	.section_container.section_container_inner{
+		padding-bottom: 40px;
+		padding-top: 100px;
+	}
+		div.hgroup_1{
+			margin: 0 0 42px;
+		}
+		div.hgroup_1_work_space{
+			margin-bottom: 44px;
+		}
+			div.hgroup_1 h2{
+				font-size: 38px;
+				line-height: 46px;
+				margin: 0 0 24px 0;
+				padding: 0 0 16px 0;
+			}
+			div.hgroup_1 h3{
+				font-size: 14px;
+				line-height: 20px;
+			}
+		div.hgroup_2{
+			margin-bottom: 20px;
+			overflow: hidden;
+		}
+			div.hgroup_2 h2 {
+				font-size: 26px;
+				line-height: 33px;
+				margin-bottom: 18px;
+			}
+			div.hgroup_2 h3{
+				font-size: 14px;
+				line-height: 20px;
+				margin-bottom: 23px;
+			}
+			
+		div.hgroup_3 {
+			margin: 0 0 42px;
+		}
+			div.hgroup_3 h2, div.hgroup_3 h1 {
+				font-size: 48px;
+				line-height: 56px;
+				margin-bottom: 20px;
+				padding-bottom: 16px;
+			}
+			div.hgroup_3 h3 {
+				font-size: 18px;
+				line-height: 24px;
+				margin-bottom: 10px;
+			}
+		div.hgroup_4{
+			margin-bottom: 42px;
+		}
+	/* Section Homepage General CSS ends */
+	
+	/**       6- Section Backgrounds (includes parallax, static, video background)		**/
+	/* Parallex Css Starts */
+	.parallax_container{
+		padding: 80px 0 60px 0;
+	}
+	.parallax_featured_space{
+		padding-top: 65px;
+	}
+	 /* Parallex Css Ends */
+	 
+	/**		7- Services Section	No 1								**/
+	/* .service_single starts */	
+		.service_single .service_block {
+			margin: 0 0 12px 0;
+		}
+		.service_single h4{
+			margin-bottom: 12px;
+		}
+		.service_single p{
+			line-height: 20px;
+		}
+	/* .service_single ends */
+	
+	/**       8- Static Testimonial with Image						**/
+	/* .testi_static starts */
+		.testi_static{
+			margin: 25px 0;
+		}
+		.testi_static .founder_img{
+			width: 24%;
+		}
+		.testi_static .founder_text {
+			margin-left: 4%;
+			width: 71.50%;
+		}
+	/* .testi_static ends */
+	
+	/**		  9- Portfolio Section									**/
+	/* work_nav starts */
+		.responsive_work_nav_xs{
+			margin-bottom: 20px;
+		}
+		.responsive_work_nav_xs .responsive-dropdown-btn{
+			display: block;
+			width: 100%;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down{
+			background: #fff;
+			box-shadow: 1px 1px 2px 0 rgba(114, 114, 114, 0.2);
+				-moz-box-shadow: 1px 1px 2px 0 rgba(114, 114, 114, 0.2);
+				-webkit-box-shadow: 1px 1px 2px 0 rgba(114, 114, 114, 0.2);
+				-o-box-shadow: 1px 1px 2px 0 rgba(114, 114, 114, 0.2);
+				-ms-box-shadow: 1px 1px 2px 0 rgba(114, 114, 114, 0.2);
+			border-radius: 5px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-o-border-radius: 5px;
+				-ms-border-radius: 5px;
+			border: 1px solid #d0d0cb;
+			display: none;
+			margin: 0;
+			overflow: hidden;
+			padding: 10px 0;
+			text-align: center;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down li{
+			display: block;
+			float: none;
+			margin: 0;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down li a{
+			border: none;
+			border-radius: 0;
+			font-size: 13px;
+			height: auto;
+			line-height: 13px;
+			padding: 10px 0;
+			width: 100%;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down li a:after{
+			background: none !important;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down li.current a, .responsive_work_nav_xs ul.responsive_drop_down li a:hover{
+			background-color: #e9e9e9;
+		}
+		.responsive_work_nav_xs ul.responsive_drop_down li a:hover:after, .responsive_work_nav_xs ul.responsive_drop_down li.current a:after{
+			background: none !important;
+		}
+			.responsive_work_nav_xs ul.responsive_drop_down li.current a:after{
+				background: none !important;
+			}
+	/* work_nav ends */
+	
+	/* work_listing starts */
+		.view .links{
+			margin: 0;
+		}
+			.view .links a.info-link:before{
+				height: 26px;
+				top: 12px;
+			}
+			.view .links a.info-link:after{
+				left: 12px;
+				width: 26px;
+			}
+		.view .work_detail h3{
+			font-size: 15px;
+			line-height: 22px;
+			margin-bottom: 10px;
+		}
+		.view .work_detail p{
+			padding: 0;
+		}
+		.work_listing .single_work figure img{
+			width: 100%;
+		}
+	/* work_listing ends */
+	
+	/* .project starts */
+		.project .project_detail {
+			margin: 25px 0 0 0;
+		}
+			.project .project_detail .project_text{
+				border-bottom: 1px solid #DDDDDD;
+				margin: 0 0 15px 0;
+			}
+				.project .project_detail .project_text .hgroup{
+					margin-bottom: 10px;
+				}
+				.project .project_detail .project_text .hgroup h2, .project .project_detail .project_text .hgroup h1{
+					font-size: 22px;
+					line-height: 26px;
+					padding-right: 0;
+				}
+				.project .project_detail .project_text .hgroup h3{
+					font-size: 16px;
+					line-height: 22px;
+					padding-right: 0;
+				}
+			.project .project_detail .project_meta {
+				margin: 0 0 10px 0;
+				padding: 0 0 10px 0;
+			}
+				.project .project_detail .project_meta span{
+					font-size: 13px;
+					line-height: 28px;
+				}
+			.project .project_detail .project_launch{
+				line-height: 28px;
+			}
+	/* .project ends */
+	
+	/**      11- Services Section No 2								**/
+	/* services_list Start Here */
+		.services_list {
+			margin-bottom: 30px;
+		}
+		.services_list h4 {
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 12px;
+		}
+	/* services_list End Here */
+	
+	/**      12- Features Slider with Carousel						**/
+	/* feature_slider Start Here */
+		/* .feature_slider_nav starts */
+		.feature_slider .feature_slider_nav {
+			margin: 0 0 53px 0;
+		}
+		.feature_slider .feature_slider_nav span {
+			font-size: 12px;
+			line-height: 18px;
+			margin-bottom: 36px;
+			padding: 0 28px;
+		}
+		/* .feature_slider_nav ends */
+		
+		/* .feature_detail starts */
+		.feature_detail {
+			margin-top: 62px;
+		}
+		.feature_detail h2 {
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 12px;
+		}
+		.feature_detail h3 {
+			font-size: 17px;
+			line-height: 22px;
+			margin-bottom: 15px;
+		}
+		.feature_detail p {
+			font-size: 13px;
+			line-height: 20px;
+		}
+		/* .feature_detail ends */
+		
+	/**      13- Promotion Bars										**/
+	/**      	13.1- Promotion bar with 2 Call to actions			**/
+	/* promotion_bar Start Here */
+		.promotion_bar{
+			margin: 30px 0;
+		}
+		.promotion_bar h4 {
+			font-size: 22px;
+			line-height: 30px;
+			margin-bottom: 20px;
+		}
+	/* promtion_bar End Here */
+	
+	/**      	13.2- Promotion bar with 1 Call to actions			**/
+	/* promotion_bar_2 Start Here */
+		.promotion_bar_2{
+			margin: 30px 0;
+		}
+		.promotion_bar_2 h2 {
+			font-size: 22px;
+		}
+		.promotion_bar_2 .align_left, .promotion_bar_2 .align_right{
+			text-align: center;
+		}
+	/* conversation Styling End Here */
+	
+	/**      14- Team Section										**/
+	/* team_member Styling Start Here */
+	div.team_member{
+		max-width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* team_member Styling End Here */
+	
+	/**      15- Statistics Section									**/	
+	/* stats_single Styling Start Here */
+		.stats_single {
+			margin-top: 15px;
+		}
+		.stats_single i {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		.stats_single .stats_content h3 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+
+		.stats_single .stats_content h4 {
+			font-size: 14px;
+			line-height: 18px;
+		}
+	/* stats_single Styling End Here */
+	
+	/**		 16- Testimonial slider									**/
+		/* .testi_holder .testi_single starts */
+		.testi_holder{
+			margin: 25px 0;
+		}
+		.testi_single .testi_text{
+			padding-top: 20px;
+			padding-left: 80px;
+		}
+		.testi_single .testi_text:before{
+			font-size: 160px;
+			line-height: 120px;
+		}
+			.testi_single .testi_text p{
+				font-size: 20px;
+				line-height: 28px;
+				margin: 0 0 22px;
+			}
+			.testi_single .testi_text p:before{
+				font-size: 160px;
+				line-height: 120px;
+				margin-top: 15px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			margin-left: 36.2%;
+			margin-top: -10px;
+		}
+		/* .testi_holder .testi_single ends */
+		
+	/**		17- Blog Section (includes: Module, Blog Listing, Single)	**/
+	.section_blog {
+		margin-top: 45px;
+		padding: 80px 0 60px;
+	}
+	
+	/* .hm_blog_post starts */
+	.hm_blog_post .post{
+		margin-bottom: 30px;
+	}
+	.post .featured_image img {
+		width:auto;
+	}
+	/* .hm_blog_post ends */
+	
+	/* .post starts */
+	.post{
+		margin-bottom: 40px;
+	}
+		.post .featured_image{
+			min-height: 66px;
+		}
+		.post .featured_image.has_comment_count{
+			min-height: 96px;
+		}
+			/* soundcloud_widget starts */
+			.post .featured_image.soundcloud_widget {
+				height: 96px;
+				padding-left: 60px;
+			}
+			/* soundcloud_widget ends */
+			
+			/* quote_post starts */
+			.quote_post .quote{
+				padding: 90px 30px 15px;
+			}
+			.has_comment_count.quote_post .quote{
+				padding: 30px 90px 0;
+			}
+			.quote_post .quote:before{
+				font-size: 50px;
+				line-height: 66px;
+			}
+			.quote_post .quote p{
+				font-size: 15px;
+				line-height: 25px;
+			}
+			/* quote_post ends */
+			
+			/* link_post starts */
+			.link_post a.link{
+				padding: 20px 52px 13px 85px;
+			}
+			.hm_blog_post .link_post a.link{
+				font-size: 13px;
+				line-height: 18px;
+				padding: 15px 52px 13px 75px;
+			}
+			.hm_blog_post .link_post a.link:before{
+				font-size: 30px;
+				line-height: 66px;
+			}
+			.link_post a.link:before{
+				font-size: 30px;
+				line-height: 66px;
+			}
+			/* link_post ends */
+			
+			/* .sticky.post starts */
+			.sticky.post .featured_image{
+				min-height: 74px;
+			}
+			.sticky.post .featured_image.has_comment_count{
+				min-height: 114px;
+			}
+			.sticky.post .featured_image .date_holder .date{
+				height: 74px;
+			}
+			.sticky.post .featured_image .date_holder .date{
+				padding-top: 38px;
+			}
+			.sticky.post .featured_image .date_holder .date:after{
+				font-size: 24px;
+				line-height: 32px;
+				top: 3px;
+			}
+			/* .sticky.post ends */
+				
+				.post .featured_image .date_holder .date{
+					height: 66px;
+					padding-top: 10px;
+					width: 60px;
+				}
+					.post .featured_image .date_holder .date .date_day{
+						font-size: 28px;
+						line-height: 30px;
+					}
+					.post .featured_image .comment_holder {
+						padding: 6px 0;
+					}
+					.post .post_content{
+						padding: 24px;
+					}
+					.post .post_content .meta_holder .title_holder .post_title{
+						font-size: 18px;
+						line-height: 24px;
+						padding-right: 160px;
+					}
+	/* .post ends */
+	
+	/**			17.5- Blog Post Comments							**/
+		/* comments_section Starts */
+		#comments_section h3 {
+			font-size: 30px;
+			line-height: 37px;
+			padding: 0 0 20px;
+			margin: 0 0 28px;
+		}
+		 
+		 #comments_section h3 i{
+			font-size: 20px;
+		 }
+		 #comments .commentlist .comment .clearing-container .avatar_holder{
+			 width: 60px;
+		 }
+		 #comments .commentlist .comment .clearing-container img {
+			height: auto;
+			width: 100%;
+		 }
+			#comments .commentlist .children {
+				margin: 0 0 0 80px;
+			}
+			#comments .commentlist li { 
+				margin: 0 0 20px; 
+			}
+			#comments .commentlist li cite.fn, #comments .commentlist li cite.fn a {
+				font-size: 15px;
+				line-height: 22px;
+			}
+			#comments .commentlist li time a {
+				font-size: 13px;
+				line-height: 20px;
+				margin-bottom: 6px;
+			}
+			#comments .clearing-container .comment_block{
+				margin: -8px 0 0 80px;
+				padding: 0 0 35px; 
+			}
+			#comments .comment-author { 
+				margin: 18px 0 14px; 
+			}
+			#comments .commentlist a.comment-reply-link {
+				font-size: 13px;
+				margin-top: 18px;
+				line-height: 22px;
+			}
+			#comments_section #respond h3 {
+				margin-bottom: 20px;
+			}
+			#comments_section #commentform .input-small{
+				width: 49%;
+			}
+			#comments_section #commentform .input-small-margin{
+				margin-left: 2%;
+			}
+		/* comments_section Ends */
+		
+	/**		18- Content area inner Pages							**/						
+	/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+		.content_area_section{
+			padding: 80px 0 54px;
+		}
+		.content_area_with_small{
+			padding-top: 40px 0 54px;
+		}
+		.content_bar h1{
+			font-size: 34px;
+			line-height: 40px;
+		}
+		.content_bar h2{
+			clear: both;
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.content_bar h3{
+			font-size: 26px;
+			line-height: 32px;
+		}
+		.content_bar h4{
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.content_bar h5{
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.content_bar h6{
+			font-size: 15px;
+			line-height: 22px;
+		}
+	/* content_bar Styling Ends*/
+
+	/**		22- Sidebar and Widgets									**/
+	/* side_bar Starts*/
+		.right_sidebar{
+			padding-left: 0;
+		}
+		.left_sidebar{
+			padding-right: 0;
+		}
+	
+	.widget-title {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 16px;
+	}
+	.side_bar .widget{
+		background: #ffffff;
+		padding: 24px 24px 24px;
+	}
+		/* custom_text_widget starts*/
+			.custom_text_widget{
+				color: #777777;
+				display: block;
+				margin-bottom: 25px;
+			}
+		
+			.custom_text_widget h4{
+				font-size: 14px;
+				line-height: 20px;
+			}
+		/* custom_text_widget ends*/
+		
+		/* widget_recent_entries Starts*/
+		.widget_recent_entries ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_recent_entries Ends*/
+		
+		/* widget_categories Starts*/
+		.widget_categories ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_categories Ends*/
+	
+		/* widget_text Starts*/
+		.textwidget strong {
+			font-size: 12px;
+		}
+		.textwidget blockquote {
+			font-size: 13px;
+			line-height: 22px;
+			margin-top: 24px;
+		}
+		/* widget_text Ends*/
+		
+		/* widget_kraft_slider starts */
+		.widget_kraft_slider .bx-wrapper .bxslider .slider_caption h3 a{
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+			top: 90%;
+		}
+		/* widget_kraft_slider ends */
+	
+		/* widget_search, widget_kraft_search Starts*/
+		.side_bar .widget_kraft_search{
+			padding: 0;
+		}
+		#s{
+			padding-left: 24px;
+		}
+		/* widget_search, widget_kraft_search Ends*/
+		
+		/* tweet-list Starts */
+		.tweet-list .tweet, .tweet_even, .tweet_odd {
+			font-size: 13px;
+			padding-left: 40px;
+			margin-bottom:  15px;
+		}
+		.tweet-list .tweet .icon {
+			font-size: 22px;
+			height: 30px;
+			width: 30px;
+		}
+		/* tweet-list Ends */
+		
+		/* widget_custom_video starts */
+		.widget_kraft_custom_video .vjs-default-skin .vjs-big-play-button{
+			height: 46px;
+			margin-left: -23px;
+			margin-top: -23px;
+			width: 46px;
+		}
+		.widget_kraft_custom_video .vjs-default-skin div.vjs-big-play-button span:before{
+			line-height: 46px;
+		}
+		/* widget_custom_video starts */
+		
+		/* widget_nav_menu and widget_pages Starts*/
+		.widget_nav_menu ul li a, .widget_pages ul li a, .widget_meta ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_nav_menu and widget_pages Ends*/
+		
+		/* widget_recent_comments Starts*/
+		.widget_recent_comments ul li a {
+			font-size: 13px;
+			line-height: 22px;
+		}
+		/* widget_nav_menu Ends*/
+	/* sidebar Ends*/
+
+	/**     21- Footer Section (map included)						**/
+	/* footer Styling Start Here */
+		footer {
+			padding: 48px 0 80px;
+		}
+	/* footer Styling End Here */
+	
+	/**		23- Shortcodes and Styling								**/
+	/**      23.3- Tabs Styles			                 				  				**/	
+	/*-----------------------------------------------------------------------------------*/
+	/* Tab Styles
+	/*-----------------------------------------------------------------------------------*/
+	.folio-tabs .folio-nav li a {
+		padding: 0 30px;
+	}
+	.folio-tabs .folio-tab {
+		padding: 22px 28px;
+	}
+
+	/**      23.5- Pricing Tables Styles 1			                 				    **/
+	/*-----------------------------------------------------------------------------------*/
+	/* 360 Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.design_pricing_single{
+		margin-bottom: 25px;
+		padding-left: 20px;
+	}
+	.design_pricing_single .price_title{
+		padding: 10px 16px;
+	}
+		.design_pricing_single .price_title h2{
+			font-size: 16px;
+			line-height: 24px;	
+		}
+	.design_pricing_single .price_cost{
+		padding: 35px 0 22px 5px;
+	}
+		.design_pricing_single .price_cost .price{
+			font-size: 30px;
+			line-height: 30px;
+			padding-bottom: 5px;
+		}
+		.design_pricing_single .price_cost .duration{
+			font-size: 13px;
+			line-height: 22px;	
+		}
+	.design_pricing_single .pricing_details{
+		padding: 15px 0 37px;
+	}
+	.design_pricing_single .pricing_details ul{
+		padding-left: 5px;
+		padding-right: 24px;
+	}
+		.design_pricing_single .pricing_details ul li{
+			font-size: 12px;
+			padding: 0 0 12px 0;
+			margin: 0 0 12px 0;
+
+		}
+		.design_pricing_single .pricing_details ul li:last-child {
+			margin-bottom: 5px;
+		}
+		.design_pricing_single .pricing_details .button{
+			padding: 0 20%;
+		}
+		/* .design_pricing_single ends */
+	
+	/**      23.6- Pricing Tables Styles			                 				  	**/
+	/*-----------------------------------------------------------------------------------*/
+	/* Folio Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.folio_pricing_single .price_title{
+		padding: 10px 15px;
+	}
+		.folio_pricing_single .price_title h2{
+			font-size: 20px;
+			line-height: 25px;	
+		}
+	.folio_pricing_single .price_cost{
+		padding: 32px 15px;
+	}
+		.folio_pricing_single .price_cost .price{
+			font-size: 46px;
+			line-height: 46px;
+		}
+	.folio_pricing_single .pricing_details{
+		padding: 22px 0 35px;
+	}
+	.folio_pricing_single .pricing_details ul{
+		margin: 0 0 15px 0;
+	}
+		.folio_pricing_single .pricing_details ul li{
+			font-size: 13px;
+			line-height: 22px;
+			padding: 0 0 20px 0;
+		}
+
+	/**      23.6- Quotes Styles			                 				 			 **/
+	/*-----------------------------------------------------------------------------------*/
+	/*	Quotes Styles
+	/*-----------------------------------------------------------------------------------*/
+		/* quote_styling Starts */
+		/* blockqoute */ 
+		.quote_1, .quote_2, .quote_3, .quote_4, .quote_5{
+			margin: 30px 0 10px 0;
+			padding: 0 10px 0 45px;
+		}
+		.quote_4, .quote_5{
+			padding: 23px 36px 23px 36px;
+		}
+		/* blockqoute p */
+		.quote_1 p, .quote_4 p , .quote_5 p{
+			font-size: 15px;
+			line-height: 26px;
+		}
+		.quote_2 p, .quote_3 p {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.quote_4 p , .quote_5 p{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		/* quote_styling Ends */
+
+
+}
+@media screen and  (max-width: 480px) { /* Smartphones 480 and Below */
+
+	.post .featured_image a {
+		width:100%;
+		margin:0;
+	}
+
+
+	.parallex_folio {
+		background-attachment: scroll;
+	}
+
+	#sync1 .row div {
+		float:none;
+		margin: 20px auto;
+		text-align: center;
+	}
+	.slogan {
+		font-size: 4em;
+	}
+
+	/**       1- General                                                   **/
+	textarea{
+		height: 150px;
+	}
+	.vjs-default-skin .vjs-control{
+		width: 3em;
+	}
+	.vjs-default-skin .vjs-volume-control{
+		width: 4em;
+	}
+	.vjs-default-skin .vjs-volume-bar{
+		width: 4em;
+	}
+	/********************* Global Elements Css ends ******************/
+	/*******************************************************************/
+
+	/**       4- Header												**/
+	.text_banner_holder{
+		margin-top: 103px;
+		margin-bottom: 60px;
+	}
+	.static_banner.top_less_margin .text_banner_holder{
+		margin-top: 100px;
+	}
+		.text_banner_center.text_banner_holder{
+			margin-top: 100px;
+		}
+		.text_banner_center.text_banner_holder .hgroup_3{
+			margin-bottom: 34px;
+		}
+	.text_banner_holder .heading_wrap h2{
+		font-size: 30px;
+		line-height: 36px;
+		margin: 0 0 10px 0;
+	}
+		
+	/**       5- Homepage Sections (includes headings group)		**/
+	/* Section Homepage General CSS starts */
+	.section_container{
+		padding-bottom: 65px;
+		padding-top: 65px;
+	}
+	.section_container.section_container_inner{
+		padding-bottom: 35px;
+		padding-top: 85px;
+	}
+		div.hgroup_1{
+			margin: 0 0 34px;
+		}
+			div.hgroup_1 h2{
+				font-size: 32px;
+				line-height: 40px;
+				margin: 0 0 22px 0;
+				padding: 0 0 14px 0;
+			}
+		div.hgroup_2{
+			margin-bottom: 15px;
+		}
+			div.hgroup_2 h2 {
+				font-size: 24px;
+				line-height: 31px;
+			}
+			div.hgroup_2 h3{
+				margin-bottom: 15px;
+			}
+		div.hgroup_3 {
+			margin: 0 0 34px;
+		}
+		div.hgroup_4{
+			margin-bottom: 34px;
+		}
+			div.hgroup_3 h2, div.hgroup_3 h1 {
+				font-size: 42px;
+				line-height: 50px;
+			}
+			div.hgroup_3 h3 {
+				font-size: 16px;
+				line-height: 22px;
+			}
+	/* Section Homepage General CSS ends */
+	
+	/**       6- Section Backgrounds (includes parallax, static, video background)		**/
+	/* Parallex Css Starts */
+	.parallax_container{
+		padding: 82px 0 82px 0;
+	}
+	.parallex_wrapper {
+		min-height: 280px;
+	}
+	 /* Parallex Css Ends */
+	 
+	/**       8- Static Testimonial with Image						**/
+	/* .testi_static starts */
+		.testi_static .founder_img{
+			vertical-align: top;
+			width: 30%;
+		}
+		.testi_static .founder_text {
+			width: 65%;
+		}
+	/* .testi_static ends */
+	
+	/**      12- Features Slider with Carousel						**/
+	/* feature_slider Start Here */
+		/* .feature_slider_nav starts */
+		.feature_slider .feature_slider_nav {
+			margin: 0 0 40px 0;
+		}
+		/* .feature_slider_nav ends */
+		
+		/* .feature_detail starts */
+		.feature_detail {
+			margin-top: 32px;
+		}
+		.feature_detail h2 {
+			font-size: 17px;
+			line-height: 24px;
+			margin-bottom: 8px;
+		}
+		.feature_detail h3 {
+			font-size: 15px;
+			line-height: 20px;
+			margin-bottom: 10px;
+		}
+		.feature_detail p {
+			font-size: 13px;
+			line-height: 20px;
+		}
+		/* .feature_detail ends */
+		
+	/**		 16- Testimonial slider									**/
+		/* .testi_holder .testi_single starts */
+		.testi_holder{
+			margin: 20px 0;
+		}
+		.testi_single .testi_text{
+			padding-top: 14px;
+			padding-left: 54px;
+			margin-left: -15px;
+		}
+		.testi_single .testi_text:before{
+			font-size: 110px;
+			line-height: 90px;
+		}
+			.testi_single .testi_text p{
+				font-size: 16px;
+				line-height: 22px;
+				margin: 0 0 18px;
+			}
+			.testi_single .testi_text p:before{
+				font-size: 110px;
+				line-height: 90px;
+				margin-top: 15px;
+				right: 0;
+			}
+			.testi_single .testi_text strong{
+				font-size: 13px;
+				line-height: 20px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			margin-left: 36.2%;
+			margin-top: -10px;
+		}
+		/* .testi_holder .testi_single ends */
+		
+	/**			17.5- Blog Post Comments							**/
+		/* comments_section Starts */
+		#comments_section h3 {
+			font-size: 28px;
+			line-height: 35px;
+			padding: 0 0 18px;
+			margin: 0 0 26px;
+		}
+			#comments .commentlist .children {
+				margin: 0 0 0 30px;
+			}
+			#comments .clearing-container .comment_block{
+				padding: 0 0 30px; 
+			}
+			#comments_section #respond h3 {
+				margin-bottom: 20px;
+			}
+			#comments_section #commentform .input-small{
+				width: 49%;
+			}
+			#comments_section #commentform .input-small-margin{
+				margin-left: 2%;
+			}
+		/* comments_section Ends */
+		.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+			top: 78%;
+		}
+}

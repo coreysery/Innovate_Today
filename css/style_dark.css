@@ -1,0 +1,668 @@
+/*************************************************************************************************
+This is DARK tone CSS file that contains Dark theme style used in Design 360 Unique and Creative HTML5 Template
+**************************************************************************************************/
+/**       1- General                                                   **/
+body {
+    background: #252525;
+    color: #999999;
+}
+hr {
+    border-top: 1px solid #999999;
+}
+
+input, button, select, textarea{
+	color: #e3e3e3;
+}
+	a:hover, a:focus {
+		color: #555555;
+	}
+p {
+	color: #555555;
+}
+code {
+    background-color: #F9F9F9;
+    border: 1px solid #E9E9E9;
+    color: #222222;
+}
+
+/* table starts */
+table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td{
+	border-top: 1px solid #777777;
+}
+/* table ends */
+
+/* bg_work starts */
+.bg_grey{
+	background-color: #252525;
+}
+/* bg_work ends */
+
+/*******************************************************************/
+/********************* Global Elements Css Starts ******************/
+/* Button CSS starts */
+
+.button-dark, a.button-dark {
+	background-color: #222222;
+	border: 1px solid #222222;
+}
+.button, a.button , .button-dark, a.button-dark{
+	color: #FFF;
+}
+	.button-dark:hover, a.button-dark:hover{
+		color: #222222;
+	}
+
+input[type="submit"]{
+	color: #FFF;
+}
+/* Button CSS ends */
+
+/* Form Elements CSS starts */
+/* Placeholder Style */
+.hasPlaceholder {
+	color: #666666;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	background: transparent;
+	border-bottom: 2px solid #e3e3e3;
+	color: #e3e3e3;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{
+	color: #e3e3e3;
+}
+
+	.dark_form textarea,
+	.dark_form input[type="text"],
+	.dark_form input[type="password"],
+	.dark_form input[type="datetime"],
+	.dark_form input[type="datetime-local"],
+	.dark_form input[type="date"],
+	.dark_form input[type="month"],
+	.dark_form input[type="time"],
+	.dark_form input[type="week"],
+	.dark_form input[type="number"],
+	.dark_form input[type="email"],
+	.dark_form input[type="url"],
+	.dark_form input[type="search"],
+	.dark_form input[type="tel"],
+	.dark_form input[type="color"],
+	.dark_form .uneditable-input {
+		color: #FFFFFF;
+		background: rgba(0, 0, 0, 0.5);
+	}
+		.dark_form textarea:focus, 
+		.dark_form input[type="text"]:focus, 
+		.dark_form input[type="password"]:focus, 
+		.dark_form input[type="datetime"]:focus, 
+		.dark_form input[type="datetime-local"]:focus, 
+		.dark_form input[type="date"]:focus, 
+		.dark_form input[type="month"]:focus, 
+		.dark_form input[type="time"]:focus, 
+		.dark_form input[type="week"]:focus, 
+		.dark_form input[type="number"]:focus, 
+		.dark_form input[type="email"]:focus, 
+		.dark_form input[type="url"]:focus, 
+		.dark_form input[type="search"]:focus, 
+		.dark_form input[type="tel"]:focus, 
+		.dark_form input[type="color"]:focus, 
+		.dark_form .uneditable-input:focus{
+			color: #FFFFFF;
+		}
+
+/* preloaders starts */
+body #load {
+	background-color: #ffffff;
+}
+/* preloaders ends */
+
+/* back_top starts */
+	.back_top a{
+		color: #FFFFFF;
+	}
+/* back_top ends */
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+
+
+/**       2- Navigation Primary (with/without Sticky Navigation)**/
+/**       2.1- Navigation Primary General                     	**/
+/* menu-bar starts */
+.menu-bar{
+	background-color: rgba(0, 0, 0, 0.96);
+	border-bottom: rgba(0, 0, 0, 0.96);
+}
+/* menu-bar starts from */
+
+.menu-bar .main-nav ul li a{
+    color: #777777;
+}
+	.menu-bar .main-nav ul li a:hover, .menu-bar .main-nav ul li.current a{
+		color: #ffffff;
+	}
+	
+/**       2.2- Navigation Primary Drop-Down                  	**/
+	/* menu-bar Dropdown Starts */
+	.menu-bar .main-nav > ul > li > ul {
+		background: #111111;
+	}
+	.menu-bar .main-nav  ul > li > ul a:hover {
+		background-color: #777777;
+	}
+	.menu-bar .main-nav  .sub-menu .sub-menu{
+		border-left: 1px solid #555555;
+		background: #111111;
+	}
+	/* menu-bar Dropdown Ends */
+	
+/**       2.3- Navigation Primary Mega-Menu                   	**/
+	/* mega_menu starts */
+		.menu-bar .main-nav .mega_menu_holder.sub-menu .mega_single_column{
+		    border-right: 1px solid #555555;
+		}
+			.menu-bar .main-nav .mega_menu_holder.sub-menu .mega_single_column .mega_column_title{
+				color: #ffffff;
+			}
+				.menu-bar .main-nav .mega_menu_holder.sub-menu .mega_single_column .mega_column_list{
+					background: none repeat scroll 0 0 #111111;
+				}
+	/* mega_menu ends */
+	
+	/* sub_header and sub_divider starts */
+	.menu-bar .main-nav ul li.sub_divider{
+		border-bottom: 1px solid #555555;
+	}
+	/* sub_header and sub_divider starts */
+/* menu-bar ends */
+
+/**		  2.4- 	**/
+		.small_menu .menu_small_btn{
+			border: 1px solid #555555;
+			color: #ffffff;
+		}
+	/* menu-bar .responsive-nav starts from */
+	.menu-bar .responsive-nav{
+		border-top: 1px solid #555555;
+	}
+	.menu-bar .responsive-nav ul li a{
+		border-bottom: 1px solid #555555;
+		color: #777777;
+		background: #000000;
+	}
+	.menu-bar .responsive-nav ul li span{
+		background: #000000;
+		border-bottom: 1px solid #555555;
+		color: #ffffff;
+	}
+
+	
+	/**       2.2- Navigation Primary Drop-Down                  	**/
+		/* sub_header and sub_divider starts */
+		.menu-bar .main-nav ul li.sub_header span{
+			color: #ffffff;
+		}
+		.menu-bar .responsive-nav ul li.sub_header span{
+			background: #000000;
+			border-bottom: 1px solid #999999;
+		}
+
+	
+/**       5- Homepage Sections (includes headings group)		**/
+/* Section Homepage General CSS starts */
+		div.hgroup_1 h2{
+			color: #e3e3e3;
+		}
+		div.hgroup_1 h3{
+			color: #999999;
+		}
+		div.hgroup_3 h2:after {
+			background: none repeat scroll 0 0 #222222;
+		}
+		div.hgroup_2 h2{
+			color: #e3e3e3;
+		}
+/* Section Homepage General CSS ends */
+
+/**		7- Services Section	No 1								**/
+/* .service_single starts */	
+	.service_single .service_block .service_icon{
+		background: #111111;
+	}
+	.service_single .service_block .fa {
+		color: #252525;
+	}
+	.service_single .service_block:hover .fa{
+		color: #ffffff;
+	}
+	.service_single h4{
+		color: #e3e3e3;
+	}
+/* .service_single ends */
+
+/**       8- Static Testimonial with Image						**/
+/* .testi_static starts */
+	.testi_static .founder_text h3 {
+		color: #e3e3e3;
+	}
+/* .testi_static ends */
+ 
+/**		  9- Portfolio Section									**/
+/* work_nav starts */
+	.work_nav ul.project-nav-menu li a:hover, .work_nav ul.project-nav-menu li.current a{
+		color: #ffffff;
+	}
+/* work_nav ends */
+/* .project starts */
+	.project img{
+		max-width: 100%;
+	}
+
+		.project .project_detail .project_text{
+			border-bottom: 1px solid #999999;
+		}
+			.project .project_detail .project_text .hgroup h2, .project .project_detail .project_text .hgroup h1{
+				color: #e3e3e3;
+			}
+			.project .project_detail .project_text .hgroup h3{
+				color: #e3e3e3;
+			}
+		.project .project_detail .project_meta {
+			border-bottom: 1px solid #999999;
+		}
+			.project .project_detail .project_meta span{
+				color: #e3e3e3;
+			}
+/* .project ends */
+
+/**      11- Services Section No 2								**/
+/* services_list Start Here */
+	.services_list h4 {
+		color: #e3e3e3;
+	}
+/* services_list End Here */
+
+/**      14- Team Section										**/
+/* team_member Styling Start Here */
+	div.team_member {
+		background: #2f2f2f;
+	}
+/* team_member Styling End Here */
+
+/**      15- Statistics Section									**/	
+/* stats_single Styling Start Here */
+	.stats_single .stats_content h3 span{
+		color: #e3e3e3;
+	}
+	.stats_single .stats_content h4 {
+		color: #999999;
+	}
+/* stats_single Styling End Here */
+
+/**		17- Blog Section (includes: Module, Blog Listing, Single)	**/
+/* .post starts */
+.post{
+	background: #2f2f2f;
+}
+		/* quote_post starts */
+		.quote_post .quote p{
+			color: #e3e3e3;
+		}
+		/* quote_post ends */
+		
+				.post .featured_image .comment_holder {
+					background: #555555;
+				}
+				.post .featured_image .comment_holder .total_comment{
+					color: #e3e3e3;
+				}
+					.post .featured_image .comment_holder .total_comment .fa{
+						color: #ffffff;
+					}
+					.post .post_content .meta_holder .title_holder .post_title a{
+						color: #e3e3e3;
+					}
+/* .post ends */
+
+/**			17.1- Pagination with wp-pagenavi, theme fall back	**/
+/* pagination start */ 
+	/*.wp-pagenavi & wp_corenavi starts*/
+	.wp-pagenavi a:hover, .folio_navigation  .wp_corenavi a:hover{		
+		background: #555555;
+	}
+	/*.wp-pagenavi  & wp_corenavi starts*/
+/* pagination end */
+
+/**			17.2- Page Links									**/
+	/* .page_links starts */
+	.page_links_holder{
+		border-top: 1px solid #999999;
+	}
+	.page_links > a:hover{		
+		background: #555555;
+	}
+	/* .page_links ends */
+
+/**			17.3- Next Previous Post Navigation					**/
+/* .navigation Starts (Single post) */
+		/* .navigation (for Project single page) */
+		.page_nav a:hover{
+			color: #ffffff;
+			background: #555555;
+		}
+/* .navigation Ends (Single post) */
+
+/**			17.4- Social Media Sharing bar						**/
+	/* social_media starts */
+	.social_media {
+		background-color: #555555;
+	}
+	.social_media > span {
+		color: #e3e3e3;
+	}
+	.social_media > ul.social_sharer_links > li {
+		color: #e3e3e3;
+	}
+	.social_media > ul.social_sharer_links > li a {
+		color: #e3e3e3;
+	}
+	/* social_media ends */
+
+/**			17.5- Blog Post Comments							**/
+	/* comments_section Starts */
+	#comments_section h3 {
+		border-bottom: 1px solid #999999;
+		color: #e3e3e3;
+	}
+		#comments_section h3 .count {
+			color: #e3e3e3;
+		}
+		#comments .commentlist li { 
+			border-bottom: 1px solid #999999;
+		}
+		#comments .commentlist li cite.fn, #comments .commentlist li cite.fn a {
+			color: #e3e3e3;
+		}
+		#comments .commentlist li time a {
+			color: #999999;
+		}
+		#comments .clearing-container .comment_block{
+			color: #555555;
+		}
+			#comments .commentlist a.comment-reply-link:hover{
+				color: #999999;
+			}
+		#comments_section #respond h3 {
+			border-bottom: 1px solid #999999;
+		}
+	/* comments_section Ends */
+
+/**		18- Content area inner Pages							**/						
+/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+.content_bar h1, .content_bar .h1, .content_bar h1 a, .content_bar .h1 a,  
+.content_bar h2, .content_bar .h2, .content_bar h2 a, .content_bar .h2 a,
+.content_bar h3, .content_bar .h3, .content_bar h3 a, .content_bar .h3 a,
+.content_bar h4, .content_bar .h4, .content_bar h4 a, .content_bar .h4 a, 
+.content_bar h5, .content_bar .h5, .content_bar h5 a, .content_bar .h5 a,
+.content_bar h6, .content_bar .h6, .content_bar h6 a, .content_bar .h6 a{
+	color: #e3e3e3;
+}
+.content_bar p{
+	color: #555555;
+}
+		.content_bar hr {
+			border-top: 1px dotted #999999;
+		}
+
+	.content_bar pre {
+		background: none repeat scroll 0 0 #555555;
+		border: 1px solid #151515;
+		color: #e3e3e3;
+	}	
+	.content_bar ul li {
+		color: #555555;
+	}
+	.content_bar ol li {
+		color: #555555;
+	}
+/* content_bar Styling Ends*/
+
+/**		19- Contact Section										**/
+/**      	19.2- Social Media Link								**/
+	/* ul.social_links starts */
+	ul.social_links li a{
+		color: #aaaaaa;
+	}
+		ul.social_links li a:hover{
+			color: #FFFFFF;
+		}
+	ul.social_links li i{
+		color: #FFFFFF;
+	}
+	/* ul.social_links starts */
+	
+/**		22- Sidebar and Widgets									**/
+/* side_bar Starts*/
+.widget-title {
+	color: #e3e3e3;
+}
+.side_bar .widget{
+	background: #2F2F2F;
+}
+	/* custom_text_widget starts*/
+		.custom_text_widget{
+			color: #e3e3e3;
+		}
+	/* custom_text_widget ends*/
+	
+	/* widget_recent_entries Starts*/
+	.widget_recent_entries ul li a {
+		color: #e3e3e3;
+	}
+	/* widget_recent_entries Ends*/
+	
+	
+	/* widget_categories Starts*/
+	.widget_categories ul li {
+		color: #e3e3e3;
+	}
+	.widget_categories ul li a:hover {
+		color: #e3e3e3;
+	}
+	/* widget_categories Ends*/
+
+	/* widget_text Starts*/
+	.textwidget {
+		color: #e3e3e3;
+	}
+	/* widget_text Ends*/
+	
+	/* widget tagcloud starts */
+	.tagcloud a{
+		background: #252525;
+	}
+	/* widget tagcloud ends */
+	
+	/* widget_kraft_slider starts */
+	.widget_kraft_slider .bx-wrapper .bxslider .slider_caption h3 a{
+		color: #e3e3e3;
+	}
+	.widget_kraft_slider .bx-wrapper .bxslider .slider_caption p {
+		color: #555555;
+	}
+	/* widget_kraft_slider ends */
+
+	/* widget_calendar starts */
+	#wp-calendar caption{
+		color: #e3e3e3;
+	}
+	/* widget_calendar ends */
+	
+	/* widget_nav_menu and widget_pages Starts*/
+	.widget_nav_menu ul li a, .widget_pages ul li a, .widget_meta ul li a {
+		color: #e3e3e3;
+	}
+	.widget_meta ul li a:hover{
+		color: #e3e3e3;
+	}
+	/* widget_nav_menu and widget_pages Ends*/
+	
+	/* widget_recent_comments Starts*/
+	.widget_recent_comments ul li a {
+		color: #e3e3e3;
+	}
+	/* widget_nav_menu Ends*/
+/* sidebar Ends*/
+
+/**      23- Shortcodes and Styling								**/
+/**      23.1- Buttons Styles			                 							**/
+/*-----------------------------------------------------------------------------------*/
+/*	Button Styles
+/*-----------------------------------------------------------------------------------*/
+/* .button.button-dark starts */
+.button.button-dark, a.button.button-dark{
+	background-color: #111111;
+	border: 1px solid #111111;
+	color: #FFF;
+}
+	.button.button-dark:hover, a.button.button-dark:hover{
+		background-color: #111111;
+		color: #FFF;
+		opacity: 0.8;
+	}
+/* .button.button-dark ends */
+
+/**      23.2- Tabs Styles			                 				  				**/	
+/*-----------------------------------------------------------------------------------*/
+/* Tab Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-tabs .folio-nav li {
+	background: #2f2f2f;
+	border: 1px solid #151515;
+	border-right: 1px solid #151515;
+	border-left: 1px solid #151515;
+	border-bottom: 1px solid #151515;
+}
+.folio-tabs .folio-nav .ui-tabs-selected, .folio-tabs .folio-nav .ui-tabs-active{
+	background: #2f2f2f;
+	border: 1px solid #151515;
+	border-bottom-color: #2f2f2f;
+}
+.folio-tabs .folio-nav li a {
+    color: #e3e3e3;
+}
+.folio-tabs .folio-tab {
+	border: 1px solid #151515;	
+	background: #2f2f2f;
+}
+
+/**      23.3- Toggles Styles			                 				  			**/
+/*-----------------------------------------------------------------------------------*/
+/*	Toggle Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-toggle .folio-toggle-title {
+	background-color: #2f2f2f;
+	border: 1px solid #151515;
+	color: #e3e3e3;
+}
+
+/**      23.4- Accordion Styles			                 				            **/
+/*-----------------------------------------------------------------------------------*/
+/*	Accordion Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-accordion .folio-accordion-title{
+	background-color: #2f2f2f;
+	border: 1px solid #151515;
+	color: #e3e3e3;
+}
+	.folio-accordion .folio-accordion-title a{
+		color: #e3e3e3;
+	}
+
+/**      23.5- Pricing Tables Styles 1			                 				    **/
+/*-----------------------------------------------------------------------------------*/
+/* 360 Pricing Table Styles		
+/*-----------------------------------------------------------------------------------*/
+.design_pricing_single{
+	background: #2f2f2f;
+}
+	.design_pricing_single .price_title h2{
+		color: #ffffff;
+	}
+	.folio_pricing_single .price_cost{
+		background: #2f2f2f;
+	}
+	.design_pricing_single .price_cost .price{
+		color: #e3e3e3;
+	}
+	.design_pricing_single .price_cost .duration{
+		color: #777777;
+	}
+	.folio_pricing_single .pricing_details{
+		background: #2f2f2f;
+	}
+	.design_pricing_single .pricing_details ul li{
+		border-bottom: 1px solid #444444;
+		color: #777777;
+	}
+	/* .design_pricing_single ends */
+	
+/**      23.6- Pricing Tables Styles 2			                 				    **/
+/*-----------------------------------------------------------------------------------*/
+/* Folio Pricing Table Styles		
+/*-----------------------------------------------------------------------------------*/
+.folio_pricing_single{
+	background: #2f2f2f;
+}
+
+.folio_pricing_single .price_title{
+	background: #151515;
+}
+	.folio_pricing_single .price_title:after{
+		background: #2f2f2f;
+	}
+	.folio_pricing_single .price_title h2{
+		color: #999999;
+	}
+	.folio_pricing_single.favourite_pricing .price_title h2{
+		color: #FFFFFF;
+	}
+	.folio_pricing_single .price_cost .price{
+		color: #e3e3e3;
+	}
+	
+	.folio_pricing_single .price_cost .duration{
+		color: #e3e3e3;
+	}
+	.folio_pricing_single.dark_pricing .pricing_details .button{
+		background-color: #111111;
+		border: 1px solid #111111;
+	}
+		.folio_pricing_single.dark_pricing .pricing_details .button:hover{
+			color: #111111;
+		}
+		
+
+/**      23.7- Quotes Styles			                 				  			**/
+/*-----------------------------------------------------------------------------------*/
+/*	Quotes Styles
+/*-----------------------------------------------------------------------------------*/
+	/* quote_styling Starts */
+	/* blockqoute */ 
+	.quote_4, .quote_5{
+		padding: 25px 38px 25px 38px;
+		border: none;
+		background: #2f2f2f;/*rgba(239, 239, 239, 1);*/
+	}
+	/* blockqoute p */
+	.quote_1 p, .quote_4 p , .quote_5 p{
+		color: #e3e3e3;
+	}
+	.quote_2 p, .quote_3 p {
+		color: #e3e3e3;
+	}
+
+/**		24- 404 section											**/
+/* section_404 starts */
+.section_404.service_single .service_block:after{
+	background: #ffffff;
+}
+/* section_404 ends */
