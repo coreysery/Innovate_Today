@@ -2715,7 +2715,7 @@ body #load {
 		margin: 0 auto;
 		height: 100%;
 		display: inline-block;
-		width:50% !important;
+		width:33% !important;
 	}
 	.feature_slider .feature_slider_nav .owl-item:before {
 		bottom: -7px;
@@ -5823,6 +5823,7 @@ input {
 	transition: all 0.3s ease 0s;
 }
 #events-page a.link-btn {
+	width: 240px;
 	background-color: #D9980D;
 	border: 1px solid #D9980D;
 	color: #FFF;
@@ -5863,8 +5864,15 @@ input {
 	margin-bottom: 21px;
 	text-align: center;
 }
-.design_bg7 {
+.banner-kc {
 	background: url(../images/events/innovate_KC.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-sgf {
+	background: url(../images/events/springfield.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .event-banner .text_banner_center.text_banner_holder{
 	margin:100px 0;

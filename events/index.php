@@ -94,6 +94,22 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="event-feature col-sm-8 col_center">
+                        <div class="col-md-6 col-xs-12 img-container">
+                            <img src="../images/events/springfield.jpg" alt="Springfield" />
+                        </div>
+                        <div class="col-md-6 col-xs-12 feature_detail">
+                            <h2>Innovate Springfield</h2>
+                            <h3>Nov. 5th, 2016 - eFactory</h3>
+                            <p>Our second event for the Fall 2016 semester will be in Springfield!</p>
+                            <a class="folio-link-url" href="springfield.php">
+                                <i class="fa fa-angle-right"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- parent_col ends -->
         </div>

@@ -15,7 +15,7 @@
     <![endif]-->
     <!-- Meta Tags -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>Kansas City | Innovate Today</title>
+    <title>Springfield | Innovate Today</title>
     <meta name="description"
           content=""/>
     <meta name="keywords" content=""/>
@@ -56,14 +56,14 @@
 
 <section class="parallex_wrapper para_container event-banner">
     <!-- slider-default starts -->
-    <div class="parallex_folio banner-kc">
+    <div class="parallex_folio banner-sgf">
         <div class="container">
             <div class="row">
                 <!-- text_banner_holder starts -->
                 <div class="text_banner_holder text_banner_center ">
                     <div class="col-sm-8 col-xs-10 col_center">
                         <div class="align_center hgroup_3 light_font ">
-                            <h2 class="gray"><span class="highlight">Innovate</span> Kansas City</h2>
+                            <h2 class="gray"><span class="highlight">Innovate</span> Springfield</h2>
                             <h3 class='gray' style="font-size: 2.5em; line-height: 30px">
                                 Sept 10, 2016 - Sprint Accelerator
                             </h3>
@@ -93,12 +93,12 @@
                     to find out! </p>
 
                 <p>
-                    We are extremely excited to host our first event of the Fall 2016 semester in Kansas City, MO! Here's some information you should know before signing up for Innovate Kansas City!
+                    We are extremely excited to host our second event for Springfield, MO! Here's some information you should know before signing up for Innovate Springfield!
                 </p>
 
                 <p>
-                    The event will be held on Saturday, September 10th, from 8am to 8pm.
-                    The event will be held at the Sprint Accelerator at 210 W. 19th ter. Kansas City, MO 64108.
+                    The event will be held on Saturday, November 5th, from 8am to 8pm.
+                    The event will be held at the eFactory at 405 N Jefferson Ave, Springfield, MO 65806.
                     The price is $20 a ticket, which includes 3 meals, a t-shirt, swag from sponsors, a unique entrepreneurial experience, networking event, AND the creation of a new business!
                 </p>
 
@@ -108,13 +108,10 @@
 
             </div>
             <div class="col-md-8 col_center">
-                <!-- Change the width and height values to suit you best -->
-                <a class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/C2iuC6" data-text="Innovate KC Registration (09/2016)">Student Signup</a>
+
+                <a class="link-btn signup typeform-widget" href="https://innovatetoday.typeform.com/to/TTLFeL" data-text="Innovate SGF Registration (11/2016)">Student Signup</a>
                 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
-<!--
-                <a class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/DMxv5K" data-mode="2" target="_blank">Signup</a>
-                <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>-->
             </div>
 
         </div>
@@ -159,8 +156,8 @@
                         <!-- client_listing Mod starts -->
                         <div class="client_listing" id="featured-clients">
                             <div class="single_client item greyscale">
-                                <a href="http://sprintaccel.com/" target="_blank"> <img
-                                        src="/images/sponsors/SprintAccel.png" alt="Sprint Accelerator"></a>
+                                <a href="http://efactory.missouristate.edu/" target="_blank">
+                                    <img src="/images/sponsors/eFactory.png" alt="eFactory"></a>
                             </div>
                         </div>
                         <!-- client_listing Mod starts -->
