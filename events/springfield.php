@@ -115,7 +115,7 @@
             </div>
 
         </div>
-        <div class="row">
+<!--        <div class="row">
             <div class="col-sm-8 col_center clearfix">
                 <h6>Community Members</h6>
                 <p>
@@ -123,7 +123,7 @@
                 </p>
                 <a class="link-btn signup" href="http://innovatekc16.eventbrite.com" target="_blank">Community Signup</a>
             </div>
-        </div>
+        </div>-->
 
     </div>
 </section>
