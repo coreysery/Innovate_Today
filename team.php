@@ -174,7 +174,7 @@
                     <!-- child_col ends -->
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12">
+                    <div class="col-sm-6 col-xs-12 col-sm-offset-3">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/corey.jpg" alt="Corey Sery">
@@ -205,36 +205,6 @@
                                 some independent contracting for larger firms. I have passion for programming and
                                 creating, so now I'm trying break into the startup game!
                             </p>
-                        </div>
-                        <!-- team_member Mod ends -->
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <!-- team_member Mod starts -->
-                        <div class="team_member">
-                            <figure class="view view-second"><img src="images/team/Monica.jpg" alt="Monica Baltz">
-                                <div class="mask"></div>
-                                <div class="content">
-                                    <div class="links">
-                                        <ul>
-                                            <li>
-                                                <a href="mailto:monica@innovatetoday.co"><i class="fa fa-envelope"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.linkedin.com/in/monica-baltz-29a903a2"><i
-                                                        class="fa fa-linkedin"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </figure>
-                            <h3>Monica Baltz</h3>
-                            <h4>CMO</h4>
-                            <p>Hello! I'm Monica and I was born and raised in Albuquerque, New Mexico but i'm enjoying
-                                the Kansas City life while attending Park University. I am is set to graduate in
-                                December of 2016 with a Bachelor of Arts degree in Organizational Communication and a
-                                minor in English Writing. This past Spring I attended InnovateKC and I was bit by the
-                                entrepreneurial bug. Wanting to be more involved in the start-up community, I decided to
-                                bring my marketing and social media skills to Innovate Today.</p>
                         </div>
                         <!-- team_member Mod ends -->
                     </div>

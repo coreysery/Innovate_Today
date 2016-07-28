@@ -33,17 +33,14 @@
                 <nav class="main-nav">
                     <ul class="hidden-xs">
                         <li>
-                            <a href="../index.php">Home</a>
-                        </li>
-                        <li>
                             <a href="../events/index.php">Events</a>
                         </li>
-                        <div class="logo">
+                        <a href="../index.php" class="logo">
                             <figure>
                                 <img src="../images/Innovate_logo.png" alt="Innovate Today" class="main_logo">
                             </figure>
 
-                        </div>
+                        </a>
                         <li>
                             <a href="../team.php">Team</a>
                         </li>

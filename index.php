@@ -546,7 +546,7 @@
                 <!-- child_row starts -->
                 <div class="row">
                     <!-- child_col starts -->
-                    <div class="col-md-2 col-xs-6 col-sm-4 col-sm-offset-2">
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-2">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second ">
@@ -576,7 +576,7 @@
                     <!-- child_col ends -->
 
                     <!-- child_col starts -->
-                    <div class="col-md-2 col-xs-6 col-sm-4">
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-1">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/Clayton.jpg">
@@ -600,7 +600,7 @@
                         <!-- team_member Mod ends -->
                     </div>
                     <!-- child_col ends -->
-                    <div class="col-md-2 col-xs-6 col-sm-4 col-sm-offset-2 col-md-offset-0">
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-1 col-xs-offset-3 col-sm-offset-0">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/corey.jpg" alt="Corey Sery">
@@ -623,29 +623,6 @@
                             </figure>
                             <h3>Corey Sery</h3>
                             <h4>CTO</h4>
-                        </div>
-                        <!-- team_member Mod ends -->
-                    </div>
-                    <div class="col-md-2 col-xs-6 col-sm-4">
-                        <!-- team_member Mod starts -->
-                        <div class="team_member">
-                            <figure class="view view-second"><img src="images/team/Monica.jpg" alt="Monica Baltz">
-                                <div class="mask"></div>
-                                <div class="content">
-                                    <div class="links">
-                                        <ul>
-                                            <li>
-                                                <a href="mailto:monica@innovatetoday.co"><i class="fa fa-envelope"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.linkedin.com/in/monica-baltz-29a903a2"><i class="fa fa-linkedin"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </figure>
-                            <h3>Monica Baltz</h3>
-                            <h4>CMO</h4>
                         </div>
                         <!-- team_member Mod ends -->
                     </div>
@@ -689,10 +666,6 @@
 
                         <!-- client_listing Mod starts -->
                         <div class="row client_listing" id="featured-clients">
-                            <div class="single_client item greyscale">
-                                <a href="http://sprintaccel.com/" target="_blank"> <img
-                                        src="images/sponsors/SprintAccel.png" alt="Sprint Accelerator"></a>
-                            </div>
                             <div class="single_client item greyscale">
                                 <a href="http://efactory.missouristate.edu/" target="_blank"> <img
                                         src="images/sponsors/eFactory.png" alt="eFactory"></a>

@@ -29,6 +29,9 @@
                             <a href="#sec-team">Team</a>
                         </li>
                         <li>
+                            <a href="#sec-sponsors">Sponsers</a>
+                        </li>
+                        <li>
                             <a href="#sec-contact">Contact</a>
                         </li>
                     </ul>
@@ -47,14 +50,17 @@
                         <li>
                             <a href="#sec-events">Events</a>
                         </li>
-                        <div class="logo">
+                        <a href="#sec-home" class="logo" >
                             <figure>
                                 <img src="images/Innovate_logo.png" alt="Innovate Today" class="main_logo">
                             </figure>
 
-                        </div>
+                        </a>
                         <li>
                             <a href="#sec-team">Team</a>
+                        </li>
+                        <li>
+                            <a href="#sec-sponsors">Sponsers</a>
                         </li>
                         <li>
                             <a href="#sec-contact">Contact</a>
