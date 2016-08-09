@@ -159,6 +159,10 @@
                                 <a href="http://efactory.missouristate.edu/" target="_blank">
                                     <img src="/images/sponsors/eFactory.png" alt="eFactory"></a>
                             </div>
+                            <div class="single_client item greyscale">
+                                <a href="http://www.springfieldchamber.com/index.php" target="_blank">
+                                    <img src="/images/sponsors/the_network.png" alt="The Network"></a>
+                            </div>
                         </div>
                         <!-- client_listing Mod starts -->
                     </div>

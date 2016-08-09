@@ -5868,11 +5868,13 @@ input {
 	background: url(../images/events/innovate_KC.jpeg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 .banner-sgf {
 	background: url(../images/events/springfield.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 .event-banner .text_banner_center.text_banner_holder{
 	margin:100px 0;
