@@ -1924,7 +1924,7 @@
 
 
 	.parallex_folio {
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 
 	#sync1 .row div {

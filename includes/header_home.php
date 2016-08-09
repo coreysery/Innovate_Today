@@ -50,7 +50,7 @@
                         <li>
                             <a href="#sec-events">Events</a>
                         </li>
-                        <a href="#sec-home" class="logo" >
+                        <a href="#" class="logo" >
                             <figure>
                                 <img src="images/Innovate_logo.png" alt="Innovate Today" class="main_logo">
                             </figure>

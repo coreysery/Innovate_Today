@@ -39,10 +39,9 @@ jQuery(document).ready(function ($) {
     }
 
     jQuery(window).scroll(function (event) {
-        /* Calling function of multiple parallax
-         quote_para(0.2, 0.6);
-         */
-        quote_para(.3);
+         //Calling function of multiple parallax
+         //quote_para(0.2, 0.6);
+        quote_para(0);
     });
     /* Parallax Quote End */
 
@@ -196,6 +195,7 @@ jQuery(document).ready(function ($) {
     });
 
     /**Running masonary everytime window resizes */
+/*
     jQuery(window).resize(function () {
         viewport_width = viewport();
         portfolio_wrapper = jQuery('#container').width();
@@ -217,7 +217,7 @@ jQuery(document).ready(function ($) {
             column_width = single_item_width(portfolio_widths.items_xs_2, portfolio_wrapper);
             jQuery('.work_item').width(column_width);
         }
-        /* Gallery Isotope Masonary */
+        /!* Gallery Isotope Masonary *!/
         jQuery('#container').isotope({
             itemSelector: '.isotope-item',
             masonry: {
@@ -225,8 +225,10 @@ jQuery(document).ready(function ($) {
             }
         });
     });
+*/
 
     /* Gallery Isotope Masonary */
+/*
     jQuery('#blog_masanory_container').isotope({
         itemSelector: '.isotope-item',
         masonry: {}
@@ -237,7 +239,8 @@ jQuery(document).ready(function ($) {
             masonry: {}
         });
     });
-
+*/
+/*
     // filter items when filter link is clicked Masonary isotope
     jQuery('#filters a').click(function () {
         jQuery(this).parent().siblings().removeClass('current');
@@ -245,7 +248,7 @@ jQuery(document).ready(function ($) {
         var selector = jQuery(this).attr('data-filter');
         jQuery('#container').isotope({filter: selector});
         return false;
-    });
+    });*/
 
     /* jQuery Nicescroll */
     jQuery("html").niceScroll({
@@ -322,6 +325,7 @@ jQuery(document).ready(function ($) {
         itemsMobile: [479, 2],
         navigation: false,
         pagination: false,
+        responsive: false,
         responsiveRefreshRate: 100,
         afterInit: function (el) {
             el.find(".owl-item").eq(0).addClass("synced");

@@ -26,14 +26,14 @@
 	});*/
 	
 	// When Resizing Window will show/hide the List of .top-menu
-	jQuery(window).resize(function(){
+/*	jQuery(window).resize(function(){
 			if(viewport().width >= 768){
 				jQuery('.top-nav').css('display', 'block');
 			}
 			if(viewport().width <= 767){
 				jQuery('.top-nav').css('display', 'block');
 			}
-		});
+		});*/
 	
 	/* Sticky Navigation */
 	jQuery(".sticky-bar").sticky({ topSpacing: 0 });
