@@ -37,9 +37,8 @@
     <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
 
     <!-- Google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
-          type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway'rel="prefetch" type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='prefetch' type='text/css'>
 
     <!-- jQuery -->
     <script type='text/javascript' src='js/vendor/jquery-1.10.2.min.js'></script>
@@ -48,7 +47,6 @@
 
     <link rel="image_src" href="images/Innovate_logo.png" / ><!--formatted-->
     <meta property="og:image" content="images/Innovate_logo.png" />
-    <link rel="image_src" href="images/events/kansas_city.jpeg" / ><!--formatted-->
 </head>
 
 <body id="sec-home">
@@ -754,10 +752,10 @@
 <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 
 <!--  Pretty Photo JS -->
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<!--<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
 
 <!-- Masonary Isotope -->
-<script type='text/javascript' src='js/jquery.isotope.js'></script>
+<!--<script type='text/javascript' src='js/jquery.isotope.js'></script>-->
 
 <!-- Owl Carousel for feature portfolio -->
 <script src="js/owl.carousel.js"></script>
@@ -766,7 +764,7 @@
 <script type="text/javascript" src="js/responsiveslides.min.js"></script>
 
 <!-- Fit Videos for youtube and vimeo etc -->
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<!--<script type="text/javascript" src="js/jquery.fitvids.js"></script>-->
 
 <!-- Main and Project Loading JS files -->
 <script type='text/javascript' src='js/project_script.js'></script>
@@ -783,15 +781,15 @@
 <script type='text/javascript' src='js/added.js'></script>
 
 <!-- Twitter single-event website tag code -->
-<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-<script type="text/javascript">twttr.conversion.trackPid('nulo3', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<script async src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script async type="text/javascript">twttr.conversion.trackPid('nulo3', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
 <noscript>
     <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nulo3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
     <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nulo3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
 </noscript>
 <!-- End Twitter single-event website tag code -->
 <!-- Google Analytics -->
-<script>
+<script async>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

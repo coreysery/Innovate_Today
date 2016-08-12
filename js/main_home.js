@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    jQuery(window).on('scroll touchmove',function (event) {
+    jQuery(window).on('scroll',function (event) {
          //Calling function of multiple parallax
          //quote_para(0.2, 0.6);
         quote_para(0);
@@ -160,16 +160,16 @@ jQuery(document).ready(function ($) {
     //console.log(viewport_width.width);
 
     /* Running Masanory 1st time */
-    if (viewport_width.width >= 1200) {
+/*    if (viewport_width.width >= 1200) {
         column_width = single_item_width(portfolio_widths.items_lg, portfolio_wrapper);
         //console.log(column_width= 291.5);
         //console.log(jQuery('.container').width());
         jQuery('.work_item').width(column_width);
-        /*if(jQuery('.container').width() < 1170){
+        /!*if(jQuery('.container').width() < 1170){
 
          column_width= 313;
          //jQuery('.work_item').width(313);
-         }*/
+         }*!/
     } else if (viewport_width.width >= 992 && viewport_width.width <= 1199) {
         column_width = single_item_width(portfolio_widths.items_md, portfolio_wrapper);
         jQuery('.work_item').width(column_width);
@@ -183,16 +183,16 @@ jQuery(document).ready(function ($) {
     else if (viewport_width.width <= 480) {
         column_width = single_item_width(portfolio_widths.items_xs_2, portfolio_wrapper);
         jQuery('.work_item').width(column_width);
-    }
+    }*/
 
     /* Gallery Isotope Masonary */
-    jQuery('#container').isotope({
+   /* jQuery('#container').isotope({
         itemSelector: '.isotope-item',
         masonry: {
             columnWidth: column_width
         },
         animationEngine: 'jquery'
-    });
+    });*/
 
     /**Running masonary everytime window resizes */
 /*
@@ -251,7 +251,7 @@ jQuery(document).ready(function ($) {
     });*/
 
     /* jQuery Nicescroll */
-    jQuery("html").niceScroll({
+    jQuery("body").niceScroll({
         styler: "fb",
         zindex: 99999
     });
