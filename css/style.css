@@ -5662,6 +5662,7 @@ body.active .main_content:before {
 }
 
 @media all and (max-width: 48.000em) {
+
     .menu_container, .anchor-link {
         display: block;
     }
@@ -5675,11 +5676,11 @@ body.active .main_content:before {
 		background: url("../images/inno_arc.png") no-repeat center top;
 		background-size: contain !important;
 		max-width: 100px;
-		transition: all .3s ease 0s;
-		-webkit-transition: all .3s ease 0s;
-		-moz-transition: all .3s ease 0s;
-		-ms-transition: all .3s ease 0s;
-		-o-transition: all .3s ease 0s;
+		transition: all .0s ease 0s;
+		-webkit-transition: all .0s ease 0s;
+		-moz-transition: all .0s ease 0s;
+		-ms-transition: all .0s ease 0s;
+		-o-transition: all .0s ease 0s;
 		z-index: 999;
 	}
     .responsive-nav {
@@ -5943,4 +5944,10 @@ input {
 #blog .post_content{
 	clear:none;
 	padding: 20px 30px;
+}
+
+@media (max-width: 768px) {
+	.parallex_folio {
+		background-attachment: scroll !important;
+	}
 }

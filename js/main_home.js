@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    jQuery(window).scroll(function (event) {
+    jQuery(window).on('scroll touchmove',function (event) {
          //Calling function of multiple parallax
          //quote_para(0.2, 0.6);
         quote_para(0);
