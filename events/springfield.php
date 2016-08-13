@@ -65,7 +65,7 @@
                         <div class="align_center hgroup_3 light_font ">
                             <h2 class="gray"><span class="highlight">Innovate</span> Springfield</h2>
                             <h3 class='gray' style="font-size: 2.5em; line-height: 30px">
-                                Nov 5, 2016 - eFactory
+                                Nov 5, 2016 - The eFactory
                             </h3>
                         </div>
                     </div>
