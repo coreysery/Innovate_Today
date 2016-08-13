@@ -382,7 +382,7 @@
                                         </div>
                                         <div class="col-sm-6 col-xs-10 feature_detail">
                                             <h2>Innovate Springfield</h2>
-                                            <h3>Nov 5th, 2016 - eFactory</h3>
+                                            <h3>Nov 5th, 2016 - The eFactory</h3>
                                             <p>Our second event for the Fall 2016 semester will be in Springfield!</p>
                                             <a class="folio-link-url" href="events/springfield.php"><i
                                                     class="fa fa-angle-right"></i> Learn More</a>
