@@ -665,6 +665,10 @@
                         <!-- client_listing Mod starts -->
                         <div class="row client_listing" id="featured-clients">
                             <div class="single_client item greyscale">
+                                <a href="http://www.sparkevents.com/" target="_blank"> <img
+                                        src="images/sponsors/spark.png" alt="Spark"></a>
+                            </div>
+                            <div class="single_client item greyscale">
                                 <a href="http://efactory.missouristate.edu/" target="_blank"> <img
                                         src="images/sponsors/eFactory.png" alt="eFactory"></a>
                             </div>
