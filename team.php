@@ -16,7 +16,6 @@
     <!-- Meta Tags -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Team | Innovate Today</title>
-    <
     <meta name="description"
           content="We host startup events! In other words, we help people create businesses. However, we are unique in that we are exclusive to students and also because our events are completed in ONE DAY!"/>
     <meta name="keywords"
@@ -174,7 +173,7 @@
                     <!-- child_col ends -->
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12 col-sm-offset-3">
+                    <div class="col-sm-6 col-xs-12">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/corey.jpg" alt="Corey Sery">
@@ -204,6 +203,32 @@
                                 Tennessee. Over the past several years, I've taught myself web development and have done
                                 some independent contracting for larger firms. I have passion for programming and
                                 creating, so now I'm trying break into the startup game!
+                            </p>
+                        </div>
+                        <!-- team_member Mod ends -->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <!-- team_member Mod starts -->
+                        <div class="team_member">
+                            <figure class="view view-second"><img src="images/team/brice.jpg" alt="Brice Clark">
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <div class="links">
+                                        <ul>
+                                            <li>
+                                                <a href="mailto:brice@innovatetoday.co"><i class="fa fa-envelope"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="http://briceclark.me/"><i class="fa fa-rocket"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </figure>
+                            <h3>Brice Clark</h3>
+                            <h4>CMO</h4>
+                            <p>
+                                Hello, I'm Brice. I enjoy working out, eating lavish meals, and partaking in new experiences. I'm always on the go and love it. Always striving to learn from others and pushing the boundaries that don't exist. I'm determined to live a life full of passion, purpose and people.
                             </p>
                         </div>
                         <!-- team_member Mod ends -->

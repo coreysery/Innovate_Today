@@ -544,7 +544,7 @@
                 <!-- child_row starts -->
                 <div class="row">
                     <!-- child_col starts -->
-                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-2">
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-sm-offset-2">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second ">
@@ -574,7 +574,7 @@
                     <!-- child_col ends -->
 
                     <!-- child_col starts -->
-                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-1">
+                    <div class="col-md-2 col-xs-6 col-sm-4 ">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/Clayton.jpg">
@@ -598,7 +598,7 @@
                         <!-- team_member Mod ends -->
                     </div>
                     <!-- child_col ends -->
-                    <div class="col-md-2 col-xs-6 col-sm-4 col-md-offset-1 col-xs-offset-3 col-sm-offset-0">
+                    <div class="col-md-2 col-xs-6 col-sm-4 col-sm-offset-2 col-md-offset-0 ">
                         <!-- team_member Mod starts -->
                         <div class="team_member">
                             <figure class="view view-second"><img src="images/team/corey.jpg" alt="Corey Sery">
@@ -621,6 +621,30 @@
                             </figure>
                             <h3>Corey Sery</h3>
                             <h4>CTO</h4>
+                        </div>
+                        <!-- team_member Mod ends -->
+                    </div>
+
+                    <div class="col-md-2 col-xs-6 col-sm-4">
+                        <!-- team_member Mod starts -->
+                        <div class="team_member">
+                            <figure class="view view-second"><img src="images/team/brice.jpg" alt="Brice Clark">
+                                <div class="mask"></div>
+                                <div class="content">
+                                    <div class="links">
+                                        <ul>
+                                            <li>
+                                                <a href="mailto:brice@innovatetoday.co"><i class="fa fa-envelope"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="http://briceclark.me/"><i class="fa fa-rocket"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </figure>
+                            <h3>Brice Clark</h3>
+                            <h4>CMO</h4>
                         </div>
                         <!-- team_member Mod ends -->
                     </div>
