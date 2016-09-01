@@ -5945,9 +5945,24 @@ input {
 	clear:none;
 	padding: 20px 30px;
 }
+#signuphead a{
+	background: #D9980D;
+	padding: 15px 30px;
+	margin: 12px 0;
+	color: #fff;
+	border: 1px solid #D9980D;
+}
+#signuphead a:hover {
+	background: #fff;
+	color: #D9980D;
+}
+
 
 @media (max-width: 768px) {
 	.parallex_folio {
 		background-attachment: scroll !important;
+	}
+	#signuphead a{
+		margin: 0;
 	}
 }

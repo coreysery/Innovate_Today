@@ -1033,12 +1033,10 @@
 		top: 0;
 	}
 		.menu-bar .responsive-nav ul li a:hover{
-			color: #ffffff;
-			background: #D9980D;
+			color: #D9980D;
 		}
 		.menu-bar .responsive-nav ul > li.current > a{
-			color: #ffffff;
-			background: #D9980D;
+			color: #D9980D;
 		}
 	
 	/**       2.2- Navigation Primary Drop-Down                  	**/

@@ -67,7 +67,11 @@ jQuery(document).ready(function ($) {
      e.stopPropagation();
      }
      });*/
-
+    $('nav a').on('click tap', function () {
+        if(this.href.indexOf('#') === -1) { //link is to another page
+            window.location = this.href;
+        }
+    });
 
     /* Scroll To Navigation */
     jQuery('#top-nav').onePageNav({
@@ -88,7 +92,8 @@ jQuery(document).ready(function ($) {
                 easing: 'swing',
                 filter: ':not(.external)'
             });
-        }
+        },
+
     });
     jQuery('#small-nav').onePageNav({
         currentClass: 'current',

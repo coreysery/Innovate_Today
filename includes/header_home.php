@@ -34,6 +34,9 @@
                         <li>
                             <a href="#sec-contact">Contact</a>
                         </li>
+                        <li id="signuphead">
+                            <a id="signup" href="/events">Sign Up!</a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- main-nav ends-->
@@ -60,14 +63,19 @@
                             <a href="#sec-team">Team</a>
                         </li>
                         <li>
-                            <a href="#sec-sponsors">Sponsers</a>
-                        </li>
-                        <li>
                             <a href="#sec-contact">Contact</a>
+                        </li>
+                        <li id="signuphead">
+                            <a id="signup" href="/events">Sign Up!</a>
                         </li>
                     </ul>
                 </nav>
                 <!-- main-nav ends-->
+<!---->
+<!--                <div class="col-xs-1" id="signuptop ">-->
+<!--                    <input type="submit" id="signup" value="Signup">-->
+<!--                </div>-->
+
             </div>
         </div>
     </div>
