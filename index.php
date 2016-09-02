@@ -389,16 +389,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-xs-10 col_center feature_detail">
-                                            <h2>We Don't know!</h2>
-                                            <p>If you have a city you want Innovate Today in, let us know!</p>
-                                            <a class="folio-link-url" href="#sec-contact"><i
-                                                    class="fa fa-angle-right"></i>Contact Us</a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-8 col_center">
@@ -408,9 +398,6 @@
                                         </div>
                                         <div class="item">
                                             <span>SGF</span>
-                                        </div>
-                                        <div class="item">
-                                            <span>?</span>
                                         </div>
                                     </div>
                                     <p class="align_center no-margin">

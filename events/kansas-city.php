@@ -79,6 +79,15 @@
 </section>
 
 
+    <div id="signupBanner" class="container">
+        <div class="col-xs-12">
+            <h2>Create a Business!</h2>
+            <a id="signup" class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/C2iuC6" data-text="Innovate KC Registration (09/2016)">Student Signup</a>
+            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+        </div>
+    </div>
+
+
 <!-- sec-about starts -->
 <section class="section_container section_about_space bg_grey event">
     <div class="container">
@@ -109,7 +118,7 @@
             </div>
             <div class="col-md-8 col_center">
                 <!-- Change the width and height values to suit you best -->
-                <a class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/C2iuC6" data-text="Innovate KC Registration (09/2016)">Student Signup</a>
+                <a id="signup" class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/C2iuC6" data-text="Innovate KC Registration (09/2016)">Student Signup</a>
                 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
 <!--

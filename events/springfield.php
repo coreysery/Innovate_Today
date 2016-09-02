@@ -78,6 +78,14 @@
     <!-- slider-default ends -->
 </section>
 
+    <div id="signupBanner" class="container">
+        <div class="col-xs-12">
+               <h2>Create a Business!</h2>
+                <a class="link-btn signup typeform-widget" href="https://innovatetoday.typeform.com/to/TTLFeL" data-text="Innovate SGF Registration (11/2016)">Student Signup</a>
+                <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+        </div>
+    </div>
+
 
 <!-- sec-about starts -->
 <section class="section_container section_about_space bg_grey event">

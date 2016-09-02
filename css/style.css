@@ -5957,6 +5957,24 @@ input {
 	color: #D9980D;
 }
 
+.event-feature #signup {
+	position: relative;
+	bottom:0;
+}
+#signupBanner {
+	padding:20px;
+	text-align: center;
+}
+#signupBanner h2 {
+	display: inline-block;
+}
+#signupBanner a.link-btn {
+	float: none;
+	clear: none;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 10px 30px;
+}
 
 @media (max-width: 768px) {
 	.parallex_folio {

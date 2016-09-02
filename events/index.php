@@ -87,9 +87,12 @@
                             <h2>Innovate Kansas City</h2>
                             <h3>Sept. 10, 2016 - Sprint Accelerator</h3>
                             <p>Our first event for the Fall 2016 semester will be in Kansas City!</p>
-                            <a class="folio-link-url" href="kansas-city.php">
+                            <a class="folio-link-url" href="/events/kansas-city.php">
                                 <i class="fa fa-angle-right"></i> Learn More
                             </a>
+
+                            <a id="signup" class="link-btn signup typeform-share link" href="https://innovatetoday.typeform.com/to/C2iuC6" data-text="Innovate KC Registration (09/2016)">Student Signup</a>
+                            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
                         </div>
                     </div>
                 </div>
@@ -103,9 +106,13 @@
                             <h2>Innovate Springfield</h2>
                             <h3>Nov. 5th, 2016 - eFactory</h3>
                             <p>Our second event for the Fall 2016 semester will be in Springfield!</p>
-                            <a class="folio-link-url" href="springfield.php">
+                            <a class="folio-link-url" href="/events/springfield.php">
                                 <i class="fa fa-angle-right"></i> Learn More
                             </a>
+
+
+                            <a id="signup" class="link-btn signup typeform-widget" href="https://innovatetoday.typeform.com/to/TTLFeL" data-text="Innovate SGF Registration (11/2016)">Student Signup</a>
+                            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
                         </div>
                     </div>
                 </div>
