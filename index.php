@@ -364,20 +364,6 @@
                                 <div class="item">
                                     <div class="row">
                                         <div class="col-sm-6 col-xs-8 align_center">
-                                            <img src="images/events/kansas_city.jpeg" alt="Kansas City">
-                                        </div>
-                                        <div class="col-sm-6 col-xs-10 feature_detail">
-                                            <h2>Innovate Kansas City</h2>
-                                            <h3>Sept 10th, 2016 - Sprint Accelerator</h3>
-                                            <p>Our first event for the Fall 2016 semester will be in Kansas City!</p>
-                                            <a class="folio-link-url" href="events/kansas-city.php"><i
-                                                    class="fa fa-angle-right"></i> Learn More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-xs-8 align_center">
                                             <img src="images/events/springfield.jpg" alt="Springfield">
                                         </div>
                                         <div class="col-sm-6 col-xs-10 feature_detail">
@@ -393,9 +379,6 @@
                             <div class="row">
                                 <div class="col-sm-8 col_center">
                                     <div id="sync2" class="owl-carousel feature_slider_nav">
-                                        <div class="item">
-                                            <span>KC</span>
-                                        </div>
                                         <div class="item">
                                             <span>SGF</span>
                                         </div>
